@@ -1,4 +1,6 @@
 ---
+title: The Road Not Taken
+sidebar_label: The Road Not Taken
 sidebar_position: 2
 ---
 
