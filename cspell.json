@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "ignorePaths": [
+    "node_modules",
+    "build",
+    ".docusaurus"
+  ],
+  "words": [
+    "Docusaurus",
+    "OpenAPI",
+    "Docs-as-Code",
+    "PayU",
+    "Marathi",
+    "Kana"
+  ]
+}
