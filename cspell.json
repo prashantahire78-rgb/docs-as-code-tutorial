@@ -2,9 +2,9 @@
   "version": "0.2",
   "language": "en",
   "ignorePaths": [
-    "node_modules",
-    "build",
-    ".docusaurus"
+    "node_modules/**",
+    "build/**",
+    ".docusaurus/**"
   ],
   "words": [
     "Docusaurus",
@@ -13,8 +13,5 @@
     "PayU",
     "Marathi",
     "Kana"
-    "Marcey"
-    "Sébastien"
-    "Lorber"
   ]
 }
