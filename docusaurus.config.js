@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Doc-as-Code Tutorial',
+  title: 'Doc As Code Prototype',
   tagline: 'A practical documentation site using Docusaurus, GitHub, and Markdown',
   favicon: 'img/favicon.ico',
 
@@ -83,22 +83,22 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Prashant Documentation Portal',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Prashant Documentation Portal Logo',
+          src: 'img/Prashant_Profile_Picture.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://www.linkedin.com/in/prashant-ahire-773a2117',
+            label: 'LinkedIn',
             position: 'right',
           },
         ],
