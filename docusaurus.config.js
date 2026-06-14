@@ -79,7 +79,11 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          
+          {
+            href: 'https://www.linkedin.com/in/prashant-ahire-773a2117',
+            label: 'LinkedIn',
+            position: 'right',
+          },
         ],
       },
       footer: {
