@@ -206,6 +206,11 @@ module.exports = {
           label: 'API Reference',
           items: [
             'rest_api_guide/api-reference/introduction-to-the-api-reference',
+            'rest_api_guide/api-reference/generate-api-token',
+            'rest_api_guide/api-reference/list-storage-systems',
+            'rest_api_guide/api-reference/start-storage-discovery',
+            'rest_api_guide/api-reference/get-system-health',
+            'rest_api_guide/api-reference/list-performance-metrics',
           ],
         },
         {
