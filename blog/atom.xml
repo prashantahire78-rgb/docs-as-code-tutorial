@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://prashantahire78-rgb.github.io/docs-as-code-tutorial/blog</id>
-    <title>Doc-as-Code Tutorial Blog</title>
+    <title>Doc As Code Prototype Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://prashantahire78-rgb.github.io/docs-as-code-tutorial/blog"/>
-    <subtitle>Doc-as-Code Tutorial Blog</subtitle>
+    <subtitle>Doc As Code Prototype Blog</subtitle>
     <icon>https://prashantahire78-rgb.github.io/docs-as-code-tutorial/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
