@@ -81,7 +81,7 @@ const config = {
           },
           {
             href: 'https://www.linkedin.com/in/prashant-ahire-773a2117',
-            label: 'By Prashant',
+            label: 'By Prashant Ahire',
             position: 'right',
           },
         ],
