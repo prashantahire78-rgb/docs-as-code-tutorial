@@ -22,11 +22,7 @@ function HomepageHeader() {
             to="/docs/intro/">
             Explore Documentation Portal
           </Link>
-          <Link
-            className="button button--outline button--secondary button--lg"
-            to="/docs/user_guide/introduction_ug/">
-            Open User Guide
-          </Link>
+          
         </div>
       </div>
     </header>
