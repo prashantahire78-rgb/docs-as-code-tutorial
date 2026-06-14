@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Doc As Code Prototype',
-  tagline: 'A practical documentation site using Docusaurus, GitHub, and Markdown',
+  title: 'StorageSphere Enterprise Documentation',
+  tagline: 'Documentation for installing, configuring, operating, and integrating StorageSphere Enterprise 2.0',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -47,26 +47,10 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/prashantahire78-rgb/docs-as-code-tutorial/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -83,9 +67,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Prashant Documentation Portal',
+        title: 'StorageSphere Docs',
         logo: {
-          alt: 'Prashant Documentation Portal Logo',
+          alt: 'StorageSphere Documentation Logo',
           src: 'img/Prashant_Profile_Picture.png',
         },
         items: [
@@ -96,57 +80,56 @@ const config = {
             label: 'Documentation',
           },
           
-          {
-            href: 'https://www.linkedin.com/in/prashant-ahire-773a2117',
-            label: 'LinkedIn',
-            position: 'right',
-          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Documentation Home',
+                to: '/docs/intro/',
+              },
+              {
+                label: 'Installation and Configuration Guide',
+                to: '/docs/installation_and_configuration_guide/introduction_icg/',
+              },
+              {
+                label: 'User Guide',
+                to: '/docs/user_guide/introduction_ug/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Developer Resources',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'REST API Developer Guide',
+                to: '/docs/rest_api_guide/introduction_rest/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'API Reference Introduction',
+                to: '/docs/rest_api_guide/api-reference/introduction-to-the-api-reference/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Operations',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Storage Discovery',
+                to: '/docs/installation_and_configuration_guide/storage-discovery/discovering-storage-systems/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Monitoring System Health',
+                to: '/docs/installation_and_configuration_guide/maintenance/monitoring-system-health/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NovaStor Technologies. Documentation built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -1,47 +1,51 @@
 ---
+id: intro
+title: StorageSphere Enterprise Documentation
+description: Documentation portal for StorageSphere Enterprise 2.0.
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# StorageSphere Enterprise Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Overview
 
-## Getting Started
+Welcome to the **StorageSphere Enterprise 2.0** documentation portal. Use this site to install, configure, operate, maintain, and integrate StorageSphere Enterprise in enterprise storage environments.
 
-Get started by **creating a new site**.
+StorageSphere Enterprise is a centralized storage monitoring and management platform from **NovaStor Technologies**. The platform helps storage and infrastructure teams discover storage systems, monitor capacity and performance, manage alerts and events, run reports, administer users, and integrate operational data through REST APIs.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Documentation Library
 
-### What you'll need
+| Guide | Use for |
+|---|---|
+| [Installation and Configuration Guide](./installation_and_configuration_guide/introduction_icg) | Plan deployment, install components, configure discovery, security, and maintenance settings |
+| [User Guide](./user_guide/introduction_ug) | Use the web UI for dashboards, inventory, monitoring, alerts, reports, administration, and troubleshooting |
+| [REST API Developer Guide](./rest_api_guide/introduction_rest) | Build integrations that use StorageSphere Enterprise REST APIs |
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Key Capabilities
 
-## Generate a new site
+| Capability | Description |
+|---|---|
+| Storage discovery | Discover supported storage systems and validate discovered inventory |
+| Capacity monitoring | Review usage, trends, forecasts, and capacity risks |
+| Performance monitoring | Analyze IOPS, throughput, latency, utilization, and workload behavior |
+| Alerts and events | Investigate operational alerts and correlate activity across resources |
+| Reports | Generate capacity, performance, health, inventory, alert, and audit reports |
+| Administration | Review users, roles, audit logs, notification delivery, and collector status |
+| REST APIs | Automate storage operations and integrate monitoring data with external tools |
 
-Generate a new Docusaurus site using the **classic template**.
+::::note
+This portal assumes StorageSphere Enterprise 2.0 is installed and available in your environment. Start with the Installation and Configuration Guide if you are planning a new deployment.
+::::
 
-The classic template will automatically be added to your project after you run the command:
+## Recommended Starting Points
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- New deployment teams should start with [Deployment Architecture](./installation_and_configuration_guide/prerequisites/deployment-architecture).
+- Storage administrators should start with [Viewing Storage Inventory](./user_guide/storage-management/viewing-storage-inventory).
+- Operations engineers should start with [Viewing the Dashboard](./user_guide/dashboard/viewing-the-dashboard).
+- API developers should start with [API Overview](./rest_api_guide/getting-started/api-overview).
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Related Topics
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- [Installation and Configuration Guide](./installation_and_configuration_guide/introduction_icg)
+- [User Guide](./user_guide/introduction_ug)
+- [REST API Developer Guide](./rest_api_guide/introduction_rest)

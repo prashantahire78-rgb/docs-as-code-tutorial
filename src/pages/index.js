@@ -19,8 +19,13 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Explore Documentation
+            to="/docs/intro/">
+            Explore Documentation Portal
+          </Link>
+          <Link
+            className="button button--outline button--secondary button--lg"
+            to="/docs/user_guide/introduction_ug/">
+            Open User Guide
           </Link>
         </div>
       </div>
@@ -32,8 +37,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="StorageSphere Enterprise Documentation"
+      description="Documentation portal for StorageSphere Enterprise 2.0 installation, operations, and REST API integration.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

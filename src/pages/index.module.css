@@ -19,5 +19,7 @@
 .buttons {
   display: flex;
   align-items: center;
+  gap: 1rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
