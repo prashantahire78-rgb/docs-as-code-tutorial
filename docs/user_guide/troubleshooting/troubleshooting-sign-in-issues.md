@@ -1,7 +1,7 @@
 ---
 id: troubleshooting-sign-in-issues
 title: Troubleshooting Sign-In Issues
-description: Steps to troubleshoot sign-in issues in StorageSphere Enterprise 2.0.
+description: Steps to troubleshoot sign-in issues in StorageSphere Enterprise 3.0.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic describes how to troubleshoot sign-in issues in StorageSphere Enterprise 2.0. Sign-in failures can result from incorrect provider selection, account lockout, expired passwords, role mapping issues, certificate warnings, or identity provider connectivity.
+This topic describes how to troubleshoot sign-in issues in StorageSphere Enterprise 3.0. Sign-in failures can result from incorrect provider selection, account lockout, expired passwords, role mapping issues, certificate warnings, or identity provider connectivity.
 
 ## Before You Begin
 

@@ -1,7 +1,7 @@
 ---
 id: understanding-user-roles
 title: Understanding User Roles
-description: Reference information about StorageSphere Enterprise 2.0 user roles and access levels.
+description: Reference information about StorageSphere Enterprise 3.0 user roles and access levels.
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 ## Overview
 
-This topic provides reference information about StorageSphere Enterprise 2.0 user roles. Roles determine which pages, data, and actions are available to each user.
+This topic provides reference information about StorageSphere Enterprise 3.0 user roles. Roles determine which pages, data, and actions are available to each user.
 
 Role assignments are managed by StorageSphere Administrators and can be assigned to local users, LDAP groups, or Active Directory groups.
 

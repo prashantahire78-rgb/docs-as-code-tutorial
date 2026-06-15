@@ -1,7 +1,7 @@
 ---
 id: setting-user-preferences
 title: Setting User Preferences
-description: Steps to configure personal user preferences in StorageSphere Enterprise 2.0.
+description: Steps to configure personal user preferences in StorageSphere Enterprise 3.0.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to configure user preferences in StorageSphere Enterprise 2.0. Preferences control your display settings, default time range, notification preferences, and saved operational views.
+This topic describes how to configure user preferences in StorageSphere Enterprise 3.0. Preferences control your display settings, default time range, notification preferences, and saved operational views.
 
 User preferences apply only to your account and do not change system-wide settings.
 

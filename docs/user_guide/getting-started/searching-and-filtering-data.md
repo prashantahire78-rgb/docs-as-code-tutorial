@@ -1,7 +1,7 @@
 ---
 id: searching-and-filtering-data
 title: Searching and Filtering Data
-description: Steps to search, filter, and save views in StorageSphere Enterprise 2.0.
+description: Steps to search, filter, and save views in StorageSphere Enterprise 3.0.
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## Overview
 
-This topic describes how to search, filter, and save views in StorageSphere Enterprise 2.0. Search and filters help you focus on specific storage systems, pools, volumes, hosts, alerts, events, and reports.
+This topic describes how to search, filter, and save views in StorageSphere Enterprise 3.0. Search and filters help you focus on specific storage systems, pools, volumes, hosts, alerts, events, and reports.
 
 Use saved views to preserve common operational filters for daily monitoring and incident response.
 

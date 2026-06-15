@@ -1,7 +1,7 @@
 ---
 id: identifying-capacity-risks
 title: Identifying Capacity Risks
-description: Steps to identify capacity risks in StorageSphere Enterprise 2.0.
+description: Steps to identify capacity risks in StorageSphere Enterprise 3.0.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to identify capacity risks in StorageSphere Enterprise 2.0. Capacity risks include high utilization, fast growth, low available capacity, and forecasted threshold crossings.
+This topic describes how to identify capacity risks in StorageSphere Enterprise 3.0. Capacity risks include high utilization, fast growth, low available capacity, and forecasted threshold crossings.
 
 ## Before You Begin
 

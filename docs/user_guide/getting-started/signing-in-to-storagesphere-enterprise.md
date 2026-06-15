@@ -1,7 +1,7 @@
 ---
 id: signing-in-to-storagesphere-enterprise
 title: Signing In to StorageSphere Enterprise
-description: Steps to sign in to the StorageSphere Enterprise 2.0 web UI.
+description: Steps to sign in to the StorageSphere Enterprise 3.0 web UI.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic describes how to sign in to the StorageSphere Enterprise 2.0 web UI. StorageSphere Enterprise supports local users and enterprise identity providers, including LDAP and Active Directory.
+This topic describes how to sign in to the StorageSphere Enterprise 3.0 web UI. StorageSphere Enterprise supports local users and enterprise identity providers, including LDAP and Active Directory.
 
 Use your assigned account and role to access dashboards, inventory, monitoring, reports, and administration features.
 

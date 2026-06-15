@@ -1,7 +1,7 @@
 ---
 id: backing-up-the-configuration
 title: Backing Up the Configuration
-description: Steps to back up StorageSphere Enterprise 2.0 configuration and operational metadata.
+description: Steps to back up StorageSphere Enterprise 3.0 configuration and operational metadata.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic describes how to back up the StorageSphere Enterprise 2.0 configuration. A configuration backup preserves system settings, license metadata, authentication providers, RBAC mappings, certificate references, storage discovery configuration, alert policies, report definitions, and collector registration data.
+This topic describes how to back up the StorageSphere Enterprise 3.0 configuration. A configuration backup preserves system settings, license metadata, authentication providers, RBAC mappings, certificate references, storage discovery configuration, alert policies, report definitions, and collector registration data.
 
 Create a verified backup before upgrades, certificate changes, authentication changes, storage discovery changes, and planned maintenance.
 
@@ -17,7 +17,7 @@ Create a verified backup before upgrades, certificate changes, authentication ch
 
 ### Prerequisites
 
-- Installed and licensed StorageSphere Enterprise 2.0. See [Installing the License](../installation/installing-the-license).
+- Installed and licensed StorageSphere Enterprise 3.0. See [Installing the License](../installation/installing-the-license).
 - StorageSphere Administrator role access.
 - Linux administrator access to the management server.
 - Healthy database connection. See [Configuring the Database](../installation/configuring-the-database).

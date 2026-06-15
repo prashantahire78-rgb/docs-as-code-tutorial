@@ -1,7 +1,7 @@
 ---
 id: configuring-https
 title: Configuring HTTPS
-description: Steps to configure HTTPS for StorageSphere Enterprise 2.0.
+description: Steps to configure HTTPS for StorageSphere Enterprise 3.0.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic describes how to configure HTTPS for StorageSphere Enterprise 2.0. HTTPS protects administrator access to the web UI, REST API access, and service communication that uses the management server endpoint.
+This topic describes how to configure HTTPS for StorageSphere Enterprise 3.0. HTTPS protects administrator access to the web UI, REST API access, and service communication that uses the management server endpoint.
 
 Configure HTTPS after the management server and database are installed. For production deployments, use a certificate issued by an approved enterprise or public certificate authority.
 

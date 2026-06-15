@@ -1,7 +1,7 @@
 ---
 id: filtering-and-sorting
 title: Filtering and Sorting
-description: Reference information for filtering and sorting REST API data in StorageSphere Enterprise 2.0.
+description: Reference information for filtering and sorting REST API data in StorageSphere Enterprise 3.0.
 sidebar_position: 5
 ---
 

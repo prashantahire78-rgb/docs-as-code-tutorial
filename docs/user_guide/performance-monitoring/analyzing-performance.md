@@ -1,7 +1,7 @@
 ---
 id: analyzing-performance
 title: Analyzing Performance
-description: Steps to analyze storage performance in StorageSphere Enterprise 2.0.
+description: Steps to analyze storage performance in StorageSphere Enterprise 3.0.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to analyze storage performance in StorageSphere Enterprise 2.0. Performance analysis helps you identify workload changes, saturation, and related resources that may affect applications.
+This topic describes how to analyze storage performance in StorageSphere Enterprise 3.0. Performance analysis helps you identify workload changes, saturation, and related resources that may affect applications.
 
 ## Before You Begin
 

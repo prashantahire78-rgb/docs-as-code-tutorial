@@ -1,7 +1,7 @@
 ---
 id: firewall-requirements
 title: Firewall Requirements
-description: Inbound and outbound firewall rules for StorageSphere Enterprise 2.0 components.
+description: Inbound and outbound firewall rules for StorageSphere Enterprise 3.0 components.
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 ## Overview
 
-This topic defines the inbound and outbound firewall rules required for StorageSphere Enterprise 2.0. Configure these rules before you install and configure the product to prevent connectivity failures during discovery, polling, and alert delivery.
+This topic defines the inbound and outbound firewall rules required for StorageSphere Enterprise 3.0. Configure these rules before you install and configure the product to prevent connectivity failures during discovery, polling, and alert delivery.
 
 Firewall requirements align with the connectivity paths described in [Network Requirements](./network-requirements). Apply rules at host-based firewalls, network firewalls, and cloud security groups as appropriate for your environment.
 

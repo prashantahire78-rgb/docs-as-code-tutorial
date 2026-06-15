@@ -1,7 +1,7 @@
 ---
 id: configuring-password-policies
 title: Configuring Password Policies
-description: Steps to configure password policies for StorageSphere Enterprise 2.0.
+description: Steps to configure password policies for StorageSphere Enterprise 3.0.
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## Overview
 
-This topic describes how to configure password policies for StorageSphere Enterprise 2.0. Password policies control password complexity, expiration, reuse, lockout behavior, and session handling for local StorageSphere users.
+This topic describes how to configure password policies for StorageSphere Enterprise 3.0. Password policies control password complexity, expiration, reuse, lockout behavior, and session handling for local StorageSphere users.
 
 Configure password policies after installation and before creating production local accounts. If your deployment uses LDAP or Active Directory authentication, manage directory user password policies in the directory service and use StorageSphere password policies for local break-glass and service accounts.
 
@@ -17,7 +17,7 @@ Configure password policies after installation and before creating production lo
 
 ### Prerequisites
 
-- Installed and licensed StorageSphere Enterprise 2.0. See [Installing the License](../installation/installing-the-license).
+- Installed and licensed StorageSphere Enterprise 3.0. See [Installing the License](../installation/installing-the-license).
 - Configured HTTPS for administrator access. See [Configuring HTTPS](./configuring-https).
 - StorageSphere Administrator role access.
 - Approved password and account lockout requirements from your security team.
