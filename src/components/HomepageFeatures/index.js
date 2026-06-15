@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Installation and Configuration',
-    link: '/docs/installation_and_configuration_guide/introduction_icg/',
+    link: '/docs/version-2.0/installation_and_configuration_guide/introduction_icg/',
     linkLabel: 'Open Installation Guide',
     description: (
       <>
@@ -17,7 +17,7 @@ const FeatureList = [
   },
   {
     title: 'User Guide',
-    link: '/docs/user_guide/introduction_ug/',
+    link: '/docs/version-2.0/user_guide/introduction_ug/',
     linkLabel: 'Open User Guide',
     description: (
       <>
@@ -28,7 +28,7 @@ const FeatureList = [
   },
   {
     title: 'REST API Developer Guide',
-    link: '/docs/rest_api_guide/introduction_rest/',
+    link: '/docs/version-2.0/rest_api_guide/introduction_rest/',
     linkLabel: 'Open API Guide',
     description: (
       <>

@@ -80,7 +80,8 @@ const config = {
           alt: 'StorageSphere Documentation Logo',
           src: 'img/Prashant_Profile_Picture.png',
         },
-        items: [{
+        items: [
+          {
           type: 'docsVersionDropdown',
           position: 'left',
           dropdownActiveClassDisabled: true,
@@ -107,15 +108,15 @@ const config = {
             items: [
               {
                 label: 'Documentation Home',
-                to: '/docs/intro/',
+                to: '/docs/version-2.0/intro/',
               },
               {
                 label: 'Installation and Configuration Guide',
-                to: '/docs/installation_and_configuration_guide/introduction_icg/',
+                to: '/docs/version-2.0/installation_and_configuration_guide/introduction_icg/',
               },
               {
                 label: 'User Guide',
-                to: '/docs/user_guide/introduction_ug/',
+                to: '/docs/version-2.0/user_guide/introduction_ug/',
               },
             ],
           },
@@ -124,11 +125,11 @@ const config = {
             items: [
               {
                 label: 'REST API Developer Guide',
-                to: '/docs/rest_api_guide/introduction_rest/',
+                to: '/docs/version-2.0/rest_api_guide/introduction_rest/',
               },
               {
                 label: 'API Reference Introduction',
-                to: '/docs/rest_api_guide/api-reference/introduction-to-the-api-reference/',
+                to: '/docs/version-2.0/rest_api_guide/api-reference/introduction-to-the-api-reference/',
               },
             ],
           },
@@ -137,11 +138,11 @@ const config = {
             items: [
               {
                 label: 'Storage Discovery',
-                to: '/docs/installation_and_configuration_guide/storage-discovery/discovering-storage-systems/',
+                to: '/docs/version-2.0/installation_and_configuration_guide/storage-discovery/discovering-storage-systems/',
               },
               {
                 label: 'Monitoring System Health',
-                to: '/docs/installation_and_configuration_guide/maintenance/monitoring-system-health/',
+                to: '/docs/version-2.0/installation_and_configuration_guide/maintenance/monitoring-system-health/',
               },
             ],
           },

@@ -41,7 +41,7 @@ For endpoint-specific paths, parameters, schemas, and examples, use the generate
 ## Related Topics
 
 - [API Overview](./getting-started/api-overview)
-- [Getting Started](/docs/rest_api_guide/getting-started)
+- [Getting Started](./getting-started)
 - [Authentication](./getting-started/authentication)
 - [API Best Practices](./api-fundamentals/api-best-practices)
 - [Introduction to the API Reference](./api-reference/introduction-to-the-api-reference)

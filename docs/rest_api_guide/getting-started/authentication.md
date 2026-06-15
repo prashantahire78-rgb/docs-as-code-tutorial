@@ -56,7 +56,7 @@ Do not store API tokens in source code, scripts, container images, or shared doc
 ## Related Topics
 
 - [Authorization](./authorization)
-- [Getting Started](/docs/rest_api_guide/getting-started)
+- [Getting Started](./)
 - [Error Handling](../api-fundamentals/error-handling)
 - [Managing Users](../../user_guide/administration/managing-users)
 - [Configuring Role-Based Access Control (RBAC)](../../installation_and_configuration_guide/security-configuration/configuring-role-based-access-control-rbac)

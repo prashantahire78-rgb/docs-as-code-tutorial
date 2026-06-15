@@ -49,7 +49,7 @@ The REST APIs enforce the same security model as the web UI. A token can access 
 
 ## Related Topics
 
-- [Getting Started](/docs/rest_api_guide/getting-started)
+- [Getting Started](./)
 - [Authentication](./authentication)
 - [Authorization](./authorization)
 - [HTTP Methods](../api-fundamentals/http-methods)
