@@ -80,6 +80,11 @@ const config = {
             label: 'Documentation',
           },
           {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: true,
+          },
+          {
             href: 'https://www.linkedin.com/in/prashant-ahire-773a2117',
             label: 'By Prashant Ahire',
             position: 'right',

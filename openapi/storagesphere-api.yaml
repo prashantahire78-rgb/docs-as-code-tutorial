@@ -1,0 +1,749 @@
+openapi: 3.0.3
+
+info:
+  title: StorageSphere Enterprise API
+  version: 2.0.0
+  description: REST API for StorageSphere Enterprise storage monitoring and management.
+
+servers:
+  - url: https://api.storagesphere.example.com/v1
+    description: Example API server
+
+security:
+  - bearerAuth: []
+
+tags:
+  - name: Authentication
+    description: APIs for generating and managing authentication tokens.
+  - name: Storage Systems
+    description: APIs for retrieving storage system inventory.
+  - name: Storage Discovery
+    description: APIs for starting and tracking storage discovery jobs.
+  - name: System Health
+    description: APIs for checking StorageSphere Enterprise system health.
+  - name: Performance
+    description: APIs for retrieving storage performance metrics.
+  - name: Alerts
+    description: APIs for retrieving and acknowledging alerts.
+  - name: Reports
+    description: APIs for retrieving and generating reports.
+  - name: Jobs
+    description: APIs for retrieving asynchronous job status.
+
+paths:
+  /auth/token:
+    post:
+      tags:
+        - Authentication
+      summary: Generate an API token
+      description: Generates an API token that can be used to authenticate subsequent API requests.
+      operationId: generateApiToken
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AuthTokenRequest"
+      responses:
+        "200":
+          description: API token generated successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AuthTokenResponse"
+        "400":
+          description: The request body is invalid.
+        "401":
+          description: The user credentials are invalid.
+
+  /storage-systems:
+    get:
+      tags:
+        - Storage Systems
+      summary: List storage systems
+      description: Retrieves the list of storage systems managed by StorageSphere Enterprise.
+      operationId: listStorageSystems
+      parameters:
+        - name: vendor
+          in: query
+          required: false
+          description: Filters storage systems by vendor.
+          schema:
+            type: string
+        - name: status
+          in: query
+          required: false
+          description: Filters storage systems by status.
+          schema:
+            type: string
+            enum:
+              - managed
+              - monitored
+              - warning
+              - critical
+      responses:
+        "200":
+          description: Storage systems retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StorageSystemListResponse"
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to view storage systems.
+
+  /storage-systems/{storageSystemId}:
+    get:
+      tags:
+        - Storage Systems
+      summary: Get storage system details
+      description: Retrieves detailed information about a specific storage system.
+      operationId: getStorageSystemDetails
+      parameters:
+        - name: storageSystemId
+          in: path
+          required: true
+          description: Unique identifier of the storage system.
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Storage system details retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StorageSystemDetails"
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to view storage system details.
+        "404":
+          description: The specified storage system was not found.
+
+  /storage-discovery/jobs:
+    post:
+      tags:
+        - Storage Discovery
+      summary: Start storage discovery
+      description: Starts a storage discovery job for a specified storage system.
+      operationId: startStorageDiscovery
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/StorageDiscoveryRequest"
+      responses:
+        "202":
+          description: Storage discovery job accepted.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/JobResponse"
+        "400":
+          description: The discovery request is invalid.
+        "401":
+          description: The request is not authenticated.
+        "404":
+          description: The specified storage system was not found.
+
+  /system/health:
+    get:
+      tags:
+        - System Health
+      summary: Get system health
+      description: Retrieves the current health status of StorageSphere Enterprise components.
+      operationId: getSystemHealth
+      responses:
+        "200":
+          description: System health retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SystemHealthResponse"
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to view system health.
+
+  /performance/metrics:
+    get:
+      tags:
+        - Performance
+      summary: List performance metrics
+      description: Retrieves performance metrics for storage resources.
+      operationId: listPerformanceMetrics
+      parameters:
+        - name: resourceType
+          in: query
+          required: true
+          description: Specifies the resource type for which performance metrics are retrieved.
+          schema:
+            type: string
+            enum:
+              - storageSystem
+              - pool
+              - volume
+              - host
+        - name: metric
+          in: query
+          required: false
+          description: Specifies the metric to retrieve.
+          schema:
+            type: string
+            enum:
+              - iops
+              - throughput
+              - latency
+              - utilization
+        - name: from
+          in: query
+          required: false
+          description: Start time for the metric query.
+          schema:
+            type: string
+            format: date-time
+        - name: to
+          in: query
+          required: false
+          description: End time for the metric query.
+          schema:
+            type: string
+            format: date-time
+      responses:
+        "200":
+          description: Performance metrics retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PerformanceMetricListResponse"
+        "400":
+          description: One or more query parameters are invalid.
+        "401":
+          description: The request is not authenticated.
+
+  /alerts:
+    get:
+      tags:
+        - Alerts
+      summary: List alerts
+      description: Retrieves active and historical alerts.
+      operationId: listAlerts
+      parameters:
+        - name: severity
+          in: query
+          required: false
+          description: Filters alerts by severity.
+          schema:
+            type: string
+            enum:
+              - critical
+              - warning
+              - informational
+        - name: status
+          in: query
+          required: false
+          description: Filters alerts by status.
+          schema:
+            type: string
+            enum:
+              - active
+              - acknowledged
+              - resolved
+              - cleared
+        - name: resourceId
+          in: query
+          required: false
+          description: Filters alerts by resource identifier.
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Alerts retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AlertListResponse"
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to view alerts.
+
+  /alerts/{alertId}/acknowledge:
+    post:
+      tags:
+        - Alerts
+      summary: Acknowledge an alert
+      description: Acknowledges a selected alert.
+      operationId: acknowledgeAlert
+      parameters:
+        - name: alertId
+          in: path
+          required: true
+          description: Unique identifier of the alert.
+          schema:
+            type: string
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AcknowledgeAlertRequest"
+      responses:
+        "200":
+          description: Alert acknowledged successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Alert"
+        "400":
+          description: The acknowledge request is invalid.
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to acknowledge alerts.
+        "404":
+          description: The specified alert was not found.
+
+  /reports:
+    get:
+      tags:
+        - Reports
+      summary: List reports
+      description: Retrieves the list of available reports.
+      operationId: listReports
+      parameters:
+        - name: category
+          in: query
+          required: false
+          description: Filters reports by category.
+          schema:
+            type: string
+            enum:
+              - capacity
+              - performance
+              - health
+              - inventory
+              - alerts
+              - audit
+      responses:
+        "200":
+          description: Reports retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ReportListResponse"
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to view reports.
+
+  /reports/generation-jobs:
+    post:
+      tags:
+        - Reports
+      summary: Generate a report
+      description: Starts report generation.
+      operationId: generateReport
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ReportGenerationRequest"
+      responses:
+        "202":
+          description: Report generation job accepted.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/JobResponse"
+        "400":
+          description: The report generation request is invalid.
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to generate reports.
+        "404":
+          description: The specified report was not found.
+
+  /jobs/{jobId}:
+    get:
+      tags:
+        - Jobs
+      summary: Get job status
+      description: Retrieves the current status of an asynchronous job.
+      operationId: getJobStatus
+      parameters:
+        - name: jobId
+          in: path
+          required: true
+          description: Unique identifier of the asynchronous job.
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Job status retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/JobStatusResponse"
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to view job status.
+        "404":
+          description: The specified job was not found.
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: API token
+
+  schemas:
+    AuthTokenRequest:
+      type: object
+      required:
+        - username
+        - password
+      properties:
+        username:
+          type: string
+          example: api-admin
+        password:
+          type: string
+          format: password
+          example: ChangeMe123!
+
+    AuthTokenResponse:
+      type: object
+      properties:
+        accessToken:
+          type: string
+          example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+        tokenType:
+          type: string
+          example: Bearer
+        expiresIn:
+          type: integer
+          example: 3600
+
+    StorageSystem:
+      type: object
+      properties:
+        id:
+          type: string
+          example: ss-001
+        name:
+          type: string
+          example: vsp-5000-prod
+        vendor:
+          type: string
+          example: Hitachi
+        model:
+          type: string
+          example: VSP 5000
+        status:
+          type: string
+          example: monitored
+        site:
+          type: string
+          example: Pune-DC1
+
+    StorageSystemDetails:
+      allOf:
+        - $ref: "#/components/schemas/StorageSystem"
+        - type: object
+          properties:
+            serialNumber:
+              type: string
+              example: VSP5000-123456
+            managementAddress:
+              type: string
+              example: vsp5000-mgmt.corp.example.com
+            firmwareVersion:
+              type: string
+              example: 93-08-21
+            totalCapacityTiB:
+              type: number
+              example: 512.0
+            usedCapacityTiB:
+              type: number
+              example: 348.6
+            lastDiscoveryTime:
+              type: string
+              format: date-time
+              example: "2026-06-13T10:00:00Z"
+
+    StorageSystemListResponse:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/StorageSystem"
+        count:
+          type: integer
+          example: 1
+
+    StorageDiscoveryRequest:
+      type: object
+      required:
+        - storageSystemId
+        - discoveryType
+      properties:
+        storageSystemId:
+          type: string
+          example: ss-001
+        discoveryType:
+          type: string
+          enum:
+            - full
+            - incremental
+            - inventoryOnly
+          example: full
+        enablePerformanceMonitoring:
+          type: boolean
+          example: true
+
+    JobResponse:
+      type: object
+      properties:
+        jobId:
+          type: string
+          example: DISC-20260613-00042
+        status:
+          type: string
+          example: queued
+        message:
+          type: string
+          example: Discovery job accepted.
+
+    JobStatusResponse:
+      type: object
+      properties:
+        jobId:
+          type: string
+          example: DISC-20260613-00042
+        status:
+          type: string
+          enum:
+            - queued
+            - running
+            - completed
+            - completedWithWarnings
+            - failed
+            - canceled
+          example: running
+        jobType:
+          type: string
+          example: storageDiscovery
+        message:
+          type: string
+          example: Discovery job is running.
+        createdAt:
+          type: string
+          format: date-time
+          example: "2026-06-13T10:00:00Z"
+        updatedAt:
+          type: string
+          format: date-time
+          example: "2026-06-13T10:05:00Z"
+
+    SystemHealthResponse:
+      type: object
+      properties:
+        overallStatus:
+          type: string
+          enum:
+            - healthy
+            - warning
+            - critical
+            - maintenance
+          example: healthy
+        managementServer:
+          type: string
+          example: healthy
+        database:
+          type: string
+          example: connected
+        collectors:
+          type: string
+          example: healthy
+        activeAlerts:
+          type: integer
+          example: 2
+
+    PerformanceMetric:
+      type: object
+      properties:
+        resourceId:
+          type: string
+          example: vol-001
+        resourceType:
+          type: string
+          example: volume
+        metric:
+          type: string
+          example: latency
+        value:
+          type: number
+          example: 2.4
+        unit:
+          type: string
+          example: ms
+        timestamp:
+          type: string
+          format: date-time
+          example: "2026-06-13T10:15:00Z"
+
+    PerformanceMetricListResponse:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/PerformanceMetric"
+        count:
+          type: integer
+          example: 1
+
+    Alert:
+      type: object
+      properties:
+        id:
+          type: string
+          example: alert-001
+        severity:
+          type: string
+          enum:
+            - critical
+            - warning
+            - informational
+          example: warning
+        status:
+          type: string
+          enum:
+            - active
+            - acknowledged
+            - resolved
+            - cleared
+          example: active
+        resourceId:
+          type: string
+          example: ss-001
+        resourceType:
+          type: string
+          example: storageSystem
+        message:
+          type: string
+          example: Storage pool utilization exceeded warning threshold.
+        createdAt:
+          type: string
+          format: date-time
+          example: "2026-06-13T09:30:00Z"
+        updatedAt:
+          type: string
+          format: date-time
+          example: "2026-06-13T10:00:00Z"
+        acknowledgedBy:
+          type: string
+          example: storage-operator
+
+    AlertListResponse:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/Alert"
+        count:
+          type: integer
+          example: 1
+
+    AcknowledgeAlertRequest:
+      type: object
+      properties:
+        note:
+          type: string
+          example: Investigating the storage pool utilization warning.
+
+    Report:
+      type: object
+      properties:
+        id:
+          type: string
+          example: report-capacity-summary
+        name:
+          type: string
+          example: Capacity Summary
+        category:
+          type: string
+          enum:
+            - capacity
+            - performance
+            - health
+            - inventory
+            - alerts
+            - audit
+          example: capacity
+        description:
+          type: string
+          example: Summarizes storage capacity usage by system and pool.
+        supportedFormats:
+          type: array
+          items:
+            type: string
+            enum:
+              - pdf
+              - csv
+              - json
+          example:
+            - pdf
+            - csv
+
+    ReportListResponse:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/Report"
+        count:
+          type: integer
+          example: 1
+
+    ReportGenerationRequest:
+      type: object
+      required:
+        - reportId
+        - format
+      properties:
+        reportId:
+          type: string
+          example: report-capacity-summary
+        format:
+          type: string
+          enum:
+            - pdf
+            - csv
+            - json
+          example: pdf
+        from:
+          type: string
+          format: date-time
+          example: "2026-06-01T00:00:00Z"
+        to:
+          type: string
+          format: date-time
+          example: "2026-06-13T23:59:59Z"
+        filters:
+          type: object
+          additionalProperties:
+            type: string
+          example:
+            site: Pune-DC1
