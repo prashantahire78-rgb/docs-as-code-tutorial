@@ -47,6 +47,14 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          includeCurrentVersion: false,
+          lastVersion: '2.0',
+          versions: {
+            '2.0': {
+              label: 'v2.0',
+              path: 'version-2.0',
+            },
+          },
           editUrl:
             'https://github.com/prashantahire78-rgb/docs-as-code-tutorial/tree/main/',
         },
@@ -67,23 +75,23 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'StorageSphere Docs',
+        title: 'StorageSphere',
         logo: {
           alt: 'StorageSphere Documentation Logo',
           src: 'img/Prashant_Profile_Picture.png',
         },
-        items: [
+        items: [{
+          type: 'docsVersionDropdown',
+          position: 'left',
+          dropdownActiveClassDisabled: true,
+        },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Documentation',
           },
-          {
-            type: 'docsVersionDropdown',
-            position: 'right',
-            dropdownActiveClassDisabled: true,
-          },
+          
           {
             href: 'https://www.linkedin.com/in/prashant-ahire-773a2117',
             label: 'By Prashant Ahire',
