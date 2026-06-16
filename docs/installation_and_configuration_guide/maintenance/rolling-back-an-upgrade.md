@@ -100,7 +100,7 @@ Rollback can discard changes made after the upgrade started. Confirm the busines
 
    ```bash
    sudo ssphere-maintenance upgrade rollback \
-     --package /tmp/storagesphere-enterprise-2.0.1.tar.gz
+    --package /tmp/storagesphere-enterprise-3.0.1.tar.gz
    ```
 
 2. Review the rollback summary.
@@ -155,7 +155,7 @@ Some upgrades include database schema changes. If schema rollback is required, r
 4. Roll back each collector to the previous approved version.
 
    ```bash
-   sudo ssphere-maintenance collector rollback --target-version 2.0.1
+   sudo ssphere-maintenance collector rollback --target-version 3.0.1
    ```
 
 5. Confirm that each collector returns to **Healthy**.

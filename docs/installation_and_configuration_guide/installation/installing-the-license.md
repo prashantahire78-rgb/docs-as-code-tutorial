@@ -46,7 +46,7 @@ Collect the following values before you start.
 
 | Item | Example | Used for |
 |---|---|---|
-| License file | `storagesphere-enterprise-2.0-license.json` | License activation |
+| License file | `storagesphere-enterprise-3.0-license.json` | License activation |
 | Customer ID | `NST-ACME-001245` | Support and license validation |
 | Management server FQDN | `ss-mgmt.corp.example.com` | System identity |
 | System fingerprint | `8f23-4bd9-91aa-73c2` | License binding |
@@ -91,19 +91,19 @@ Store the fingerprint and license file name in your deployment runbook. This inf
 2. Copy the license file to the management server.
 
    ```bash
-   scp storagesphere-enterprise-2.0-license.json ss-admin@ss-mgmt.corp.example.com:/tmp/ssphere-license/
+   scp storagesphere-enterprise-3.0-license.json ss-admin@ss-mgmt.corp.example.com:/tmp/ssphere-license/
    ```
 
 3. Verify that the file exists.
 
    ```bash
-   ls -l /tmp/ssphere-license/storagesphere-enterprise-2.0-license.json
+   ls -l /tmp/ssphere-license/storagesphere-enterprise-3.0-license.json
    ```
 
 4. Confirm that the file is readable only by authorized administrators.
 
    ```bash
-   chmod 600 /tmp/ssphere-license/storagesphere-enterprise-2.0-license.json
+   chmod 600 /tmp/ssphere-license/storagesphere-enterprise-3.0-license.json
    ```
 
 ### Step 3: Install the license from the command line
@@ -111,7 +111,7 @@ Store the fingerprint and license file name in your deployment runbook. This inf
 1. Run the license installation command.
 
    ```bash
-   sudo ssphere-license install /tmp/ssphere-license/storagesphere-enterprise-2.0-license.json
+   sudo ssphere-license install /tmp/ssphere-license/storagesphere-enterprise-3.0-license.json
    ```
 
 2. Review the installation summary.
@@ -119,7 +119,7 @@ Store the fingerprint and license file name in your deployment runbook. This inf
    ```text
    License status: valid
    Product: StorageSphere Enterprise
-   Version: 2.0
+   Version: 3.0
    Licensed assets: 2000
    Expiration: 2027-12-31
    ```
@@ -153,7 +153,7 @@ Use this method when the management server is running and you have StorageSphere
    | Field | Confirm |
    |---|---|
    | Product | StorageSphere Enterprise |
-   | Version | 2.0 |
+   | Version | 3.0 |
    | Licensed assets | Matches your purchased capacity |
    | Expiration date | Matches your support or subscription term |
    | Customer ID | Matches your organization |
