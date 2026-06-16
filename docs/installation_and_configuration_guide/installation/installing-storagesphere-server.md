@@ -40,7 +40,7 @@ Collect the following values before you start.
 | Item | Example | Used for |
 |---|---|---|
 | Management server FQDN | `ss-mgmt.corp.example.com` | Web UI, REST API, TLS certificate |
-| Installation package | `storagesphere-enterprise-server-2.0.0.rpm` | Server installation |
+| Installation package | `storagesphere-enterprise-server-3.0.0.rpm` | Server installation |
 | Service account | `ssphere` | StorageSphere service ownership |
 | Data directory | `/var/lib/ssphere` | Metrics, reports, and runtime data |
 | HTTPS port | `443` | Administrator and REST API access |
@@ -65,14 +65,14 @@ Do not install the management server on a host that also runs unrelated producti
 3. Copy the StorageSphere Server package to the directory.
 
    ```bash
-   scp storagesphere-enterprise-server-2.0.0.rpm ss-admin@ss-mgmt.corp.example.com:/tmp/ssphere-install/
+   scp storagesphere-enterprise-server-3.0.0.rpm ss-admin@ss-mgmt.corp.example.com:/tmp/ssphere-install/
    ```
 
 4. Verify the package checksum provided by NovaStor Technologies.
 
    ```bash
    cd /tmp/ssphere-install
-   sha256sum storagesphere-enterprise-server-2.0.0.rpm
+   sha256sum storagesphere-enterprise-server-3.0.0.rpm
    ```
 
    Confirm that the checksum matches the value published with the release package.
@@ -108,13 +108,13 @@ Do not install the management server on a host that also runs unrelated producti
 1. Install the RPM package on RHEL or compatible platforms.
 
    ```bash
-   sudo dnf install -y ./storagesphere-enterprise-server-2.0.0.rpm
+   sudo dnf install -y ./storagesphere-enterprise-server-3.0.0.rpm
    ```
 
 2. For Ubuntu Server, install the DEB package instead.
 
    ```bash
-   sudo apt install ./storagesphere-enterprise-server-2.0.0_amd64.deb
+   sudo apt install ./storagesphere-enterprise-server-3.0.0_amd64.deb
    ```
 
 3. Verify that the package is installed.
@@ -259,7 +259,7 @@ Confirm that the following conditions are true before you continue.
 
 | Check | Expected result |
 |---|---|
-| Package installation | `storagesphere-enterprise-server` is installed at version 2.0.x |
+| Package installation | `storagesphere-enterprise-server` is installed at version 3.0.x |
 | Service status | `ssphere-server` is active and enabled |
 | HTTPS endpoint | `https://ss-mgmt.corp.example.com` responds with the StorageSphere sign-in page |
 | REST API health | `https://ss-mgmt.corp.example.com/api/v2/health` returns `healthy` |

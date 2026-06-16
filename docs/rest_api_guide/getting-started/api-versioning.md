@@ -17,7 +17,7 @@ StorageSphere Enterprise REST APIs use versioning so integrations can remain sta
 
 | Version element | Description |
 |---|---|
-| Product version | StorageSphere Enterprise release, such as 2.0 |
+| Product version | StorageSphere Enterprise release, such as 3.0 |
 | API version | REST API contract version, such as `v2` |
 | Endpoint version | Version segment used by endpoint paths or the API gateway |
 | Deprecation notice | Advance notice that an API behavior or contract will change |

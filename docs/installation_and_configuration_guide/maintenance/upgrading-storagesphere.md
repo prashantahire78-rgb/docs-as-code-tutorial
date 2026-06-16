@@ -40,9 +40,9 @@ Collect the following values before you start.
 
 | Item | Example | Used for |
 |---|---|---|
-| Current version | `2.0.1` | Upgrade eligibility |
-| Target version | `2.0.3` | Upgrade package validation |
-| Upgrade package | `storagesphere-enterprise-2.0.3.tar.gz` | Installation source |
+| Current version | `3.0.1` | Upgrade eligibility |
+| Target version | `3.0.3` | Upgrade package validation |
+| Upgrade package | `storagesphere-enterprise-3.0.3.tar.gz` | Installation source |
 | Backup file | `ssphere-config-20260613-170500.tar.gz.enc` | Rollback readiness |
 | Maintenance record | `CHG-104900` | Change tracking |
 | Support contact | `support@novastor.example` | Escalation |
@@ -71,7 +71,7 @@ Do not start an upgrade when system health is critical, database backup is incom
 
    ```bash
    sudo ssphere-maintenance upgrade precheck \
-     --package /tmp/storagesphere-enterprise-2.0.3.tar.gz
+    --package /tmp/storagesphere-enterprise-3.0.3.tar.gz
    ```
 
 3. Review the results.
@@ -114,7 +114,7 @@ Do not start an upgrade when system health is critical, database backup is incom
 3. Enter the maintenance reason.
 
    ```text
-   StorageSphere Enterprise upgrade to 2.0.3
+   StorageSphere Enterprise upgrade to 3.0.3
    ```
 
 4. Confirm that alert suppression matches your change policy.
@@ -127,7 +127,7 @@ Do not start an upgrade when system health is critical, database backup is incom
 
    ```bash
    sudo ssphere-maintenance upgrade apply \
-     --package /tmp/storagesphere-enterprise-2.0.3.tar.gz
+    --package /tmp/storagesphere-enterprise-3.0.3.tar.gz
    ```
 
 3. Review the upgrade summary.

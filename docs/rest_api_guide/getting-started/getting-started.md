@@ -81,7 +81,7 @@ This topic describes how to make an initial StorageSphere Enterprise 3.0 REST AP
    ```json
    {
      "status": "healthy",
-     "version": "2.0",
+    "version": "3.0",
      "requestId": "7f7e1b20-3c28-4c2f-9f1d-3e9c51e784a4"
    }
    ```
