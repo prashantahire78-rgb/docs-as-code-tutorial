@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/version-2.0/intro/">
+            to="/docs/intro/">
             Explore Documentation Portal
           </Link>
           
@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <Layout
       title="StorageSphere Enterprise Documentation"
-      description="Documentation portal for StorageSphere Enterprise 2.0 installation, operations, and REST API integration.">
+      description="Documentation portal for StorageSphere Enterprise 3.0 installation, operations, and REST API integration.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

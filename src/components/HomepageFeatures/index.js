@@ -6,18 +6,18 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Installation and Configuration',
-    link: '/docs/version-2.0/installation_and_configuration_guide/introduction_icg/',
+    link: '/docs/installation_and_configuration_guide/introduction_icg/',
     linkLabel: 'Open Installation Guide',
     description: (
       <>
         Plan deployment, validate prerequisites, configure security, discover
-        storage systems, and maintain StorageSphere Enterprise 2.0.
+        storage systems, and maintain StorageSphere Enterprise 3.0.
       </>
     ),
   },
   {
     title: 'User Guide',
-    link: '/docs/version-2.0/user_guide/introduction_ug/',
+    link: '/docs/user_guide/introduction_ug/',
     linkLabel: 'Open User Guide',
     description: (
       <>
@@ -28,7 +28,7 @@ const FeatureList = [
   },
   {
     title: 'REST API Developer Guide',
-    link: '/docs/version-2.0/rest_api_guide/introduction_rest/',
+    link: '/docs/rest_api_guide/introduction_rest/',
     linkLabel: 'Open API Guide',
     description: (
       <>

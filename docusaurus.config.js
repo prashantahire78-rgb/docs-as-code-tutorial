@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'StorageSphere Enterprise Documentation',
-  tagline: 'Documentation for installing, configuring, operating, and integrating StorageSphere Enterprise 2.0',
+  tagline: 'Documentation for installing, configuring, operating, and integrating StorageSphere Enterprise 3.0',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -48,11 +48,17 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           includeCurrentVersion: false,
-          lastVersion: '2.0',
+          lastVersion: '3.0',
           versions: {
+            '3.0': {
+              label: 'v3.0',
+              path: '/',
+              banner: 'none',
+            },
             '2.0': {
               label: 'v2.0',
-              path: 'version-2.0',
+              path: '2.0',
+              banner: 'none',
             },
           },
           editUrl:
@@ -108,15 +114,15 @@ const config = {
             items: [
               {
                 label: 'Documentation Home',
-                to: '/docs/version-2.0/intro/',
+                to: '/docs/intro/',
               },
               {
                 label: 'Installation and Configuration Guide',
-                to: '/docs/version-2.0/installation_and_configuration_guide/introduction_icg/',
+                to: '/docs/installation_and_configuration_guide/introduction_icg/',
               },
               {
                 label: 'User Guide',
-                to: '/docs/version-2.0/user_guide/introduction_ug/',
+                to: '/docs/user_guide/introduction_ug/',
               },
             ],
           },
@@ -125,11 +131,11 @@ const config = {
             items: [
               {
                 label: 'REST API Developer Guide',
-                to: '/docs/version-2.0/rest_api_guide/introduction_rest/',
+                to: '/docs/rest_api_guide/introduction_rest/',
               },
               {
                 label: 'API Reference Introduction',
-                to: '/docs/version-2.0/rest_api_guide/api-reference/introduction-to-the-api-reference/',
+                to: '/docs/rest_api_guide/api-reference/introduction-to-the-api-reference/',
               },
             ],
           },
@@ -138,11 +144,11 @@ const config = {
             items: [
               {
                 label: 'Storage Discovery',
-                to: '/docs/version-2.0/installation_and_configuration_guide/storage-discovery/discovering-storage-systems/',
+                to: '/docs/installation_and_configuration_guide/storage-discovery/discovering-storage-systems/',
               },
               {
                 label: 'Monitoring System Health',
-                to: '/docs/version-2.0/installation_and_configuration_guide/maintenance/monitoring-system-health/',
+                to: '/docs/installation_and_configuration_guide/maintenance/monitoring-system-health/',
               },
             ],
           },
