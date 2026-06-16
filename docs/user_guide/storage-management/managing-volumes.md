@@ -1,7 +1,7 @@
 ---
 id: managing-volumes
 title: Managing Volumes
-description: Steps to review volumes in StorageSphere Enterprise 2.0.
+description: Steps to review volumes in StorageSphere Enterprise 3.0.
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## Overview
 
-This topic describes how to review volumes in StorageSphere Enterprise 2.0. Volume views show capacity, performance, health, host mappings, parent pools, and related alerts.
+This topic describes how to review volumes in StorageSphere Enterprise 3.0. Volume views show capacity, performance, health, host mappings, parent pools, and related alerts.
 
 Use volume details to investigate growth, latency, workload changes, and host impact.
 

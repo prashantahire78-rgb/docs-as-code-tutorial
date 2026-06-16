@@ -1,7 +1,7 @@
 ---
 id: managing-log-files
 title: Managing Log Files
-description: Steps to manage StorageSphere Enterprise 2.0 log files.
+description: Steps to manage StorageSphere Enterprise 3.0 log files.
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## Overview
 
-This topic describes how to manage StorageSphere Enterprise 2.0 log files. Log management helps administrators troubleshoot issues, meet audit requirements, control disk usage, and provide diagnostic data to NovaStor Technologies support.
+This topic describes how to manage StorageSphere Enterprise 3.0 log files. Log management helps administrators troubleshoot issues, meet audit requirements, control disk usage, and provide diagnostic data to NovaStor Technologies support.
 
 Review log settings after installation, before production cutover, and whenever storage, security, or retention requirements change.
 
@@ -17,7 +17,7 @@ Review log settings after installation, before production cutover, and whenever 
 
 ### Prerequisites
 
-- Installed and licensed StorageSphere Enterprise 2.0. See [Installing the License](../installation/installing-the-license).
+- Installed and licensed StorageSphere Enterprise 3.0. See [Installing the License](../installation/installing-the-license).
 - StorageSphere Administrator role access.
 - Linux administrator access to the management server and collector hosts.
 - Approved log retention and forwarding requirements.

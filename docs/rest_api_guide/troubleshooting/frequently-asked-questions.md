@@ -1,7 +1,7 @@
 ---
 id: frequently-asked-questions
 title: Frequently Asked Questions
-description: Frequently asked questions about StorageSphere Enterprise 2.0 REST APIs.
+description: Frequently asked questions about StorageSphere Enterprise 3.0 REST APIs.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic answers common questions about using StorageSphere Enterprise 2.0 REST APIs.
+This topic answers common questions about using StorageSphere Enterprise 3.0 REST APIs.
 
 ## Reference Information
 

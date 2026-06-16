@@ -1,7 +1,7 @@
 ---
 id: managing-users
 title: Managing Users
-description: Steps to manage users in StorageSphere Enterprise 2.0.
+description: Steps to manage users in StorageSphere Enterprise 3.0.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic describes how to manage users in StorageSphere Enterprise 2.0. User administration includes viewing user accounts, creating local users when required, disabling accounts, and reviewing role assignments. 
+This topic describes how to manage users in StorageSphere Enterprise 3.0. User administration includes viewing user accounts, creating local users when required, disabling accounts, and reviewing role assignments. 
 
 Use directory groups for regular enterprise access whenever LDAP or Active Directory is configured.
 

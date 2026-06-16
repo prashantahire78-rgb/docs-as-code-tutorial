@@ -1,7 +1,7 @@
 ---
 id: analyzing-capacity-trends
 title: Analyzing Capacity Trends
-description: Steps to analyze capacity trends in StorageSphere Enterprise 2.0.
+description: Steps to analyze capacity trends in StorageSphere Enterprise 3.0.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to analyze capacity trends in StorageSphere Enterprise 2.0. Trend analysis helps you understand storage growth over time and estimate when capacity thresholds might be reached.
+This topic describes how to analyze capacity trends in StorageSphere Enterprise 3.0. Trend analysis helps you understand storage growth over time and estimate when capacity thresholds might be reached.
 
 ## Before You Begin
 

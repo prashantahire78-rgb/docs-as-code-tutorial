@@ -1,7 +1,7 @@
 ---
 id: adding-a-storage-system
 title: Adding a Storage System
-description: Steps to add a storage system connection for discovery in StorageSphere Enterprise 2.0.
+description: Steps to add a storage system connection for discovery in StorageSphere Enterprise 3.0.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic describes how to add a storage system connection in StorageSphere Enterprise 2.0. A storage system connection defines the management endpoint, vendor type, credentials, collector assignment, and discovery options used to discover inventory and begin monitoring.
+This topic describes how to add a storage system connection in StorageSphere Enterprise 3.0. A storage system connection defines the management endpoint, vendor type, credentials, collector assignment, and discovery options used to discover inventory and begin monitoring.
 
 Add storage systems after StorageSphere Enterprise is installed, licensed, and reachable from the storage management network. You can add storage systems one at a time when onboarding a new platform or site.
 
@@ -17,7 +17,7 @@ Add storage systems after StorageSphere Enterprise is installed, licensed, and r
 
 ### Prerequisites
 
-- Installed and licensed StorageSphere Enterprise 2.0. See [Installing the License](../installation/installing-the-license).
+- Installed and licensed StorageSphere Enterprise 3.0. See [Installing the License](../installation/installing-the-license).
 - StorageSphere Administrator role access.
 - At least one healthy collector with network access to the storage management endpoint.
 - DNS resolution and NTP synchronization configured for the management server, collectors, and storage systems. See [Network Requirements](../prerequisites/network-requirements).

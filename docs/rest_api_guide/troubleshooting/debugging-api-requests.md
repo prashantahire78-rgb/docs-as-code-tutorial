@@ -1,7 +1,7 @@
 ---
 id: debugging-api-requests
 title: Debugging API Requests
-description: Steps to debug StorageSphere Enterprise 2.0 REST API requests.
+description: Steps to debug StorageSphere Enterprise 3.0 REST API requests.
 sidebar_position: 2
 ---
 

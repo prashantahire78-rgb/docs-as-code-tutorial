@@ -1,7 +1,7 @@
 ---
 id: error-handling
 title: Error Handling
-description: Reference information for REST API error handling in StorageSphere Enterprise 2.0.
+description: Reference information for REST API error handling in StorageSphere Enterprise 3.0.
 sidebar_position: 7
 ---
 

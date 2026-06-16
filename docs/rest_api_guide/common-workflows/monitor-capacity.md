@@ -1,7 +1,7 @@
 ---
 id: monitor-capacity
 title: Monitor Capacity
-description: Workflow for retrieving capacity data with StorageSphere Enterprise 2.0 REST APIs.
+description: Workflow for retrieving capacity data with StorageSphere Enterprise 3.0 REST APIs.
 sidebar_position: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: navigating-the-web-ui
 title: Navigating the Web UI
-description: Overview of the StorageSphere Enterprise 2.0 web UI navigation model.
+description: Overview of the StorageSphere Enterprise 3.0 web UI navigation model.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic explains the main areas of the StorageSphere Enterprise 2.0 web UI. The navigation model groups operational tasks by dashboard, storage inventory, monitoring, alerts, reports, and administration.
+This topic explains the main areas of the StorageSphere Enterprise 3.0 web UI. The navigation model groups operational tasks by dashboard, storage inventory, monitoring, alerts, reports, and administration.
 
 Use the navigation menu to move between daily monitoring tasks and administrative workflows.
 

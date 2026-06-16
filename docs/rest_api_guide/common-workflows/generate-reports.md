@@ -1,7 +1,7 @@
 ---
 id: generate-reports
 title: Generate Reports
-description: Workflow for generating reports with StorageSphere Enterprise 2.0 REST APIs.
+description: Workflow for generating reports with StorageSphere Enterprise 3.0 REST APIs.
 sidebar_position: 5
 ---
 

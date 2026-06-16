@@ -1,7 +1,7 @@
 ---
 id: acknowledging-alerts
 title: Acknowledging Alerts
-description: Steps to acknowledge alerts in StorageSphere Enterprise 2.0.
+description: Steps to acknowledge alerts in StorageSphere Enterprise 3.0.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to acknowledge alerts in StorageSphere Enterprise 2.0. Acknowledgement shows that an alert has been reviewed and assigned for investigation or remediation.
+This topic describes how to acknowledge alerts in StorageSphere Enterprise 3.0. Acknowledgement shows that an alert has been reviewed and assigned for investigation or remediation.
 
 Acknowledging an alert does not clear the underlying condition.
 
