@@ -1,7 +1,7 @@
----
+﻿---
 id: introduction-to-the-api-reference
 title: Introduction to the API Reference
-description: Introduction to the generated StorageSphere Enterprise 3.0 API Reference.
+description: Introduction to the generated StorageSphere Enterprise API Reference.
 sidebar_position: 1
 ---
 

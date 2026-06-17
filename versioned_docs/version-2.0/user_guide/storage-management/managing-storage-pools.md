@@ -1,7 +1,7 @@
----
+﻿---
 id: managing-storage-pools
 title: Managing Storage Pools
-description: Steps to review storage pools in StorageSphere Enterprise 2.0.
+description: Steps to review storage pools in StorageSphere Enterprise.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to review storage pools in StorageSphere Enterprise 2.0. Pool views show capacity, utilization, health, related volumes, and parent storage systems.
+This topic describes how to review storage pools in StorageSphere Enterprise. Pool views show capacity, utilization, health, related volumes, and parent storage systems.
 
 Use pool information to identify capacity pressure, imbalance, and resources that require planning or remediation.
 

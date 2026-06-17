@@ -1,7 +1,7 @@
----
+﻿---
 id: monitoring-performance
 title: Monitoring Performance
-description: Reference information for performance monitoring in StorageSphere Enterprise 3.0.
+description: Reference information for performance monitoring in StorageSphere Enterprise.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic provides reference information for performance monitoring in StorageSphere Enterprise 3.0. Performance views help administrators review workload behavior and identify changes in IOPS, throughput, latency, and utilization.
+This topic provides reference information for performance monitoring in StorageSphere Enterprise. Performance views help administrators review workload behavior and identify changes in IOPS, throughput, latency, and utilization.
 
 ## Reference Information
 

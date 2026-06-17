@@ -1,7 +1,7 @@
----
+﻿---
 id: troubleshooting-alert-noise
 title: Troubleshooting Alert Noise
-description: Steps to troubleshoot alert noise in StorageSphere Enterprise 3.0.
+description: Steps to troubleshoot alert noise in StorageSphere Enterprise.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to troubleshoot alert noise in StorageSphere Enterprise 3.0. Alert noise occurs when users receive too many alerts, duplicate alerts, low-value alerts, or alerts for resources outside their responsibility.
+This topic describes how to troubleshoot alert noise in StorageSphere Enterprise. Alert noise occurs when users receive too many alerts, duplicate alerts, low-value alerts, or alerts for resources outside their responsibility.
 
 ## Before You Begin
 

@@ -1,7 +1,7 @@
----
+﻿---
 id: introduction_rest
 title: REST API Developer Guide
-description: Introduction to using the StorageSphere Enterprise 3.0 REST APIs.
+description: Introduction to using the StorageSphere Enterprise REST APIs.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This guide explains how developers and administrators use the StorageSphere Enterprise 3.0 REST APIs from NovaStor Technologies. Use the REST APIs to automate storage discovery, query inventory, monitor capacity and performance, manage alerts, generate reports, and integrate StorageSphere Enterprise with operational tools.
+This guide explains how developers and administrators use the StorageSphere Enterprise REST APIs from NovaStor Technologies. Use the REST APIs to automate storage discovery, query inventory, monitor capacity and performance, manage alerts, generate reports, and integrate StorageSphere Enterprise with operational tools.
 
 This guide describes API concepts, authentication, request and response patterns, operational workflows, and troubleshooting practices. It does not provide endpoint-by-endpoint reference documentation.
 

@@ -1,7 +1,7 @@
----
+﻿---
 id: understanding-status-and-severity-values
 title: Understanding Status and Severity Values
-description: Reference information for status and severity values in StorageSphere Enterprise 2.0.
+description: Reference information for status and severity values in StorageSphere Enterprise.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic provides reference information for common status and severity values in StorageSphere Enterprise 2.0. These values appear on dashboards, inventory pages, monitoring views, alerts, events, and reports.
+This topic provides reference information for common status and severity values in StorageSphere Enterprise. These values appear on dashboards, inventory pages, monitoring views, alerts, events, and reports.
 
 ## Reference Information
 

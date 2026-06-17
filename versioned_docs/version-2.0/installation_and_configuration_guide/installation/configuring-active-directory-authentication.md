@@ -1,7 +1,7 @@
----
+﻿---
 id: configuring-active-directory-authentication
 title: Configuring Active Directory Authentication
-description: Steps to configure Microsoft Active Directory authentication for StorageSphere Enterprise 2.0.
+description: Steps to configure Microsoft Active Directory authentication for StorageSphere Enterprise.
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 ## Overview
 
-This topic describes how to configure Microsoft Active Directory authentication for StorageSphere Enterprise 2.0. Active Directory authentication lets administrators sign in with domain credentials and receive StorageSphere roles based on Active Directory group membership.
+This topic describes how to configure Microsoft Active Directory authentication for StorageSphere Enterprise. Active Directory authentication lets administrators sign in with domain credentials and receive StorageSphere roles based on Active Directory group membership.
 
 Use this topic when your organization manages user identities in Active Directory. For standards-based LDAP directories such as OpenLDAP, see [Configuring LDAP Authentication](./configuring-ldap-authentication).
 

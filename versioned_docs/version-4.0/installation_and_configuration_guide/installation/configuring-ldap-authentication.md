@@ -1,7 +1,7 @@
----
+﻿---
 id: configuring-ldap-authentication
 title: Configuring LDAP Authentication
-description: Steps to configure OpenLDAP authentication for StorageSphere Enterprise 3.0.
+description: Steps to configure OpenLDAP authentication for StorageSphere Enterprise.
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## Overview
 
-This topic describes how to configure LDAP authentication for StorageSphere Enterprise 3.0. Use LDAP authentication when your organization manages users and groups in OpenLDAP or another standards-based LDAP directory.
+This topic describes how to configure LDAP authentication for StorageSphere Enterprise. Use LDAP authentication when your organization manages users and groups in OpenLDAP or another standards-based LDAP directory.
 
 LDAP authentication lets StorageSphere Enterprise authenticate users through your directory service and map LDAP groups to StorageSphere roles.
 

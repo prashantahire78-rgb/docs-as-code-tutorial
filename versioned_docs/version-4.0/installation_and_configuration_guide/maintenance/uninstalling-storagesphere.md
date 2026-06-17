@@ -1,7 +1,7 @@
----
+﻿---
 id: uninstalling-storagesphere
 title: Uninstalling StorageSphere
-description: Steps to uninstall StorageSphere Enterprise 3.0 components.
+description: Steps to uninstall StorageSphere Enterprise components.
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 ## Overview
 
-This topic describes how to uninstall StorageSphere Enterprise 3.0. Uninstallation removes StorageSphere services and packages from the management server and collectors. Depending on your selection, the process can preserve or remove configuration, logs, certificates, and local application data.
+This topic describes how to uninstall StorageSphere Enterprise. Uninstallation removes StorageSphere services and packages from the management server and collectors. Depending on your selection, the process can preserve or remove configuration, logs, certificates, and local application data.
 
 Use this topic for decommissioning, lab cleanup, failed installation recovery, or migration to a replacement deployment.
 

@@ -1,7 +1,7 @@
----
+﻿---
 id: rate-limiting
 title: Rate Limiting
-description: Reference information for REST API rate limiting in StorageSphere Enterprise 3.0.
+description: Reference information for REST API rate limiting in StorageSphere Enterprise.
 sidebar_position: 6
 ---
 

@@ -1,7 +1,7 @@
----
+﻿---
 id: getting-started
 title: Getting Started
-description: Steps to make an initial StorageSphere Enterprise 2.0 API request.
+description: Steps to make an initial StorageSphere Enterprise API request.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to make an initial StorageSphere Enterprise 2.0 REST API request. Use this workflow to verify connectivity, authentication, authorization, and response handling before building a larger integration.
+This topic describes how to make an initial StorageSphere Enterprise REST API request. Use this workflow to verify connectivity, authentication, authorization, and response handling before building a larger integration.
 
 ## Before You Begin
 

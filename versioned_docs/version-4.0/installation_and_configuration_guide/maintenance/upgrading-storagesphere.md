@@ -1,7 +1,7 @@
----
+﻿---
 id: upgrading-storagesphere
 title: Upgrading StorageSphere
-description: Steps to upgrade StorageSphere Enterprise 3.0 components.
+description: Steps to upgrade StorageSphere Enterprise components.
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 ## Overview
 
-This topic describes how to upgrade StorageSphere Enterprise 3.0. An upgrade updates the management server, database schema, collectors, and related services to a newer supported maintenance or feature release.
+This topic describes how to upgrade StorageSphere Enterprise. An upgrade updates the management server, database schema, collectors, and related services to a newer supported maintenance or feature release.
 
 Plan upgrades during an approved maintenance window. Always create and verify a configuration backup before upgrading.
 

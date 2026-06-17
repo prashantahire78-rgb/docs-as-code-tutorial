@@ -1,7 +1,7 @@
----
+﻿---
 id: monitoring-capacity
 title: Monitoring Capacity
-description: Overview of capacity monitoring in StorageSphere Enterprise 2.0.
+description: Overview of capacity monitoring in StorageSphere Enterprise.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-Capacity monitoring in StorageSphere Enterprise 2.0 helps administrators track used, available, provisioned, and forecasted storage capacity across systems, pools, and volumes.
+Capacity monitoring in StorageSphere Enterprise helps administrators track used, available, provisioned, and forecasted storage capacity across systems, pools, and volumes.
 
 Use capacity views to identify growth trends, capacity pressure, allocation imbalance, and resources that require planning.
 

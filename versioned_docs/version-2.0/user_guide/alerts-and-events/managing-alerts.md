@@ -1,7 +1,7 @@
----
+﻿---
 id: managing-alerts
 title: Managing Alerts
-description: Steps to review and manage alerts in StorageSphere Enterprise 2.0.
+description: Steps to review and manage alerts in StorageSphere Enterprise.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic describes how to manage alerts in StorageSphere Enterprise 2.0. Alerts identify conditions that require review, acknowledgement, escalation, or remediation.
+This topic describes how to manage alerts in StorageSphere Enterprise. Alerts identify conditions that require review, acknowledgement, escalation, or remediation.
 
 ## Before You Begin
 

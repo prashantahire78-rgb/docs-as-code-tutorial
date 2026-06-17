@@ -1,7 +1,7 @@
----
+﻿---
 id: api-best-practices
 title: API Best Practices
-description: Best practices for building StorageSphere Enterprise 3.0 REST API integrations.
+description: Best practices for building StorageSphere Enterprise REST API integrations.
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 ## Overview
 
-This topic provides best practices for building reliable StorageSphere Enterprise 3.0 REST API integrations. Apply these practices to automation, reporting pipelines, monitoring integrations, and operational tools.
+This topic provides best practices for building reliable StorageSphere Enterprise REST API integrations. Apply these practices to automation, reporting pipelines, monitoring integrations, and operational tools.
 
 ## Reference Information
 

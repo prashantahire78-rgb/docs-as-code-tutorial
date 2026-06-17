@@ -1,7 +1,7 @@
----
+﻿---
 id: configuring-the-database
 title: Configuring the Database
-description: Steps to configure the StorageSphere Enterprise 2.0 database connection.
+description: Steps to configure the StorageSphere Enterprise database connection.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to configure the database used by StorageSphere Enterprise 2.0. The database stores inventory, configuration, RBAC assignments, alert history, report definitions, and metrics metadata.
+This topic describes how to configure the database used by StorageSphere Enterprise. The database stores inventory, configuration, RBAC assignments, alert history, report definitions, and metrics metadata.
 
 StorageSphere Enterprise supports PostgreSQL for production deployments. Microsoft SQL Server is supported for environments that require Microsoft database standards and centralized database administration.
 
@@ -31,7 +31,7 @@ StorageSphere Enterprise supports PostgreSQL for production deployments. Microso
 | Microsoft SQL Server | 2019, 2022 | 1433 | Enterprises standardized on Microsoft SQL Server |
 
 :::note
-PostgreSQL is the recommended database engine for new StorageSphere Enterprise 2.0 deployments unless your organization requires Microsoft SQL Server.
+PostgreSQL is the recommended database engine for new StorageSphere Enterprise deployments unless your organization requires Microsoft SQL Server.
 :::
 
 ### Required access

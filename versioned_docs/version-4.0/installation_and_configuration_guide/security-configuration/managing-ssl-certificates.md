@@ -1,7 +1,7 @@
----
+﻿---
 id: managing-ssl-certificates
 title: Managing SSL Certificates
-description: Steps to manage SSL certificates for StorageSphere Enterprise 3.0.
+description: Steps to manage SSL certificates for StorageSphere Enterprise.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to manage SSL certificates for StorageSphere Enterprise 3.0. Certificate management includes generating certificate signing requests, importing signed certificates, rotating certificates before expiration, and maintaining trusted certificate authorities for secure communication.
+This topic describes how to manage SSL certificates for StorageSphere Enterprise. Certificate management includes generating certificate signing requests, importing signed certificates, rotating certificates before expiration, and maintaining trusted certificate authorities for secure communication.
 
 Use this topic when you deploy a new HTTPS certificate, replace an expiring certificate, or add trust for an internal certificate authority.
 

@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <Layout
       title="StorageSphere Enterprise Documentation"
-      description="Documentation portal for StorageSphere Enterprise 3.0 installation, operations, and REST API integration.">
+      description="Documentation portal for StorageSphere Enterprise 4.0 installation, operations, and REST API integration.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
