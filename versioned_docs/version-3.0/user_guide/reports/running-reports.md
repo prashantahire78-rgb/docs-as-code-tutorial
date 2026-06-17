@@ -1,7 +1,7 @@
 ---
 id: running-reports
 title: Running Reports
-description: Steps to run reports in StorageSphere Enterprise 3.0.
+description: Steps to run reports in StorageSphere Enterprise.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic describes how to run reports in StorageSphere Enterprise 3.0. Reports provide structured output for capacity, performance, health, inventory, alerts, events, audit activity, and compliance review.
+This topic describes how to run reports in StorageSphere Enterprise. Reports provide structured output for capacity, performance, health, inventory, alerts, events, audit activity, and compliance review.
 
 ## Before You Begin
 

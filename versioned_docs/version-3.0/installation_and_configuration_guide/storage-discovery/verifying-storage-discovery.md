@@ -1,7 +1,7 @@
 ---
 id: verifying-storage-discovery
 title: Verifying Storage Discovery
-description: Steps to verify discovered storage resources and discovery health in StorageSphere Enterprise 3.0.
+description: Steps to verify discovered storage resources and discovery health in StorageSphere Enterprise.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to verify storage discovery in StorageSphere Enterprise 3.0. Verification confirms that discovered resources are complete, correctly tagged, associated with the expected storage system, and ready for monitoring.
+This topic describes how to verify storage discovery in StorageSphere Enterprise. Verification confirms that discovered resources are complete, correctly tagged, associated with the expected storage system, and ready for monitoring.
 
 Verify discovery immediately after the first discovery run for each storage system. Repeat verification after major storage configuration changes, collector changes, credential updates, or platform upgrades.
 
@@ -17,7 +17,7 @@ Verify discovery immediately after the first discovery run for each storage syst
 
 ### Prerequisites
 
-- Installed and licensed StorageSphere Enterprise 3.0. See [Installing the License](../installation/installing-the-license).
+- Installed and licensed StorageSphere Enterprise. See [Installing the License](../installation/installing-the-license).
 - Added a storage system connection. See [Adding a Storage System](./adding-a-storage-system).
 - Completed at least one discovery job. See [Discovering Storage Systems](./discovering-storage-systems).
 - Storage system connection status is **Validated**.

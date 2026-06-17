@@ -1,7 +1,7 @@
 ---
 id: scheduling-reports
 title: Scheduling Reports
-description: Steps to schedule recurring reports in StorageSphere Enterprise 3.0.
+description: Steps to schedule recurring reports in StorageSphere Enterprise.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to schedule recurring reports in StorageSphere Enterprise 3.0. Scheduled reports help operations, capacity planning, and compliance teams receive consistent information without running reports manually.
+This topic describes how to schedule recurring reports in StorageSphere Enterprise. Scheduled reports help operations, capacity planning, and compliance teams receive consistent information without running reports manually.
 
 ## Before You Begin
 

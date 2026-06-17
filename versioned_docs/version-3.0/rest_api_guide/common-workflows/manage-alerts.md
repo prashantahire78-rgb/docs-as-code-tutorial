@@ -1,7 +1,7 @@
 ---
 id: manage-alerts
 title: Manage Alerts
-description: Workflow for managing alerts with StorageSphere Enterprise 3.0 REST APIs.
+description: Workflow for managing alerts with StorageSphere Enterprise REST APIs.
 sidebar_position: 4
 ---
 

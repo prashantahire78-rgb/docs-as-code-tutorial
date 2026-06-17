@@ -1,7 +1,7 @@
 ---
 id: response-format
 title: Response Format
-description: Reference information for REST API response format in StorageSphere Enterprise 3.0.
+description: Reference information for REST API response format in StorageSphere Enterprise.
 sidebar_position: 3
 ---
 

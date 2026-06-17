@@ -1,7 +1,7 @@
 ---
 id: reviewing-events
 title: Reviewing Events
-description: Steps to review events in StorageSphere Enterprise 3.0.
+description: Steps to review events in StorageSphere Enterprise.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to review events in StorageSphere Enterprise 3.0. Events record operational activity, configuration changes, discovery job results, alert state changes, authentication activity, and system health updates.
+This topic describes how to review events in StorageSphere Enterprise. Events record operational activity, configuration changes, discovery job results, alert state changes, authentication activity, and system health updates.
 
 Use events to understand what changed before, during, or after an operational issue.
 
