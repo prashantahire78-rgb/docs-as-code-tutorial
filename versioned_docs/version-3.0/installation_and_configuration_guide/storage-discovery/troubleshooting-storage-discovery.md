@@ -1,7 +1,7 @@
 ---
 id: troubleshooting-storage-discovery
 title: Troubleshooting Storage Discovery
-description: Steps to diagnose and resolve storage discovery issues in StorageSphere Enterprise 3.0.
+description: Steps to diagnose and resolve storage discovery issues in StorageSphere Enterprise.
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## Overview
 
-This topic describes how to troubleshoot storage discovery issues in StorageSphere Enterprise 3.0. Use this topic when a storage system cannot be added, connection validation fails, discovery jobs fail, or discovered inventory does not match expected resources.
+This topic describes how to troubleshoot storage discovery issues in StorageSphere Enterprise. Use this topic when a storage system cannot be added, connection validation fails, discovery jobs fail, or discovered inventory does not match expected resources.
 
 Troubleshooting storage discovery typically requires coordination between StorageSphere administrators, storage administrators, network administrators, and security administrators.
 
@@ -17,7 +17,7 @@ Troubleshooting storage discovery typically requires coordination between Storag
 
 ### Prerequisites
 
-- Installed and licensed StorageSphere Enterprise 3.0. See [Installing the License](../installation/installing-the-license).
+- Installed and licensed StorageSphere Enterprise. See [Installing the License](../installation/installing-the-license).
 - StorageSphere Administrator role access.
 - Access to the storage system record under **Administration** > **Storage Discovery**.
 - Access to the assigned collector host for log review when required.
@@ -123,7 +123,7 @@ Start troubleshooting with the most recent discovery job. Older jobs might refer
    | Last heartbeat | Recent and within the configured heartbeat interval |
    | Management connection | Connected to the management server |
    | Job capacity | Available discovery job capacity |
-   | Version | Matches the StorageSphere Enterprise 3.0 management server version |
+   | Version | Matches the StorageSphere Enterprise management server version |
 
 4. Restart the collector service only if the collector is unhealthy and your change process allows service restart.
 

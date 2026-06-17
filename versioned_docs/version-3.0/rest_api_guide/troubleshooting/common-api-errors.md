@@ -1,7 +1,7 @@
 ---
 id: common-api-errors
 title: Common API Errors
-description: Reference information for common StorageSphere Enterprise 3.0 REST API errors.
+description: Reference information for common StorageSphere Enterprise REST API errors.
 sidebar_position: 1
 ---
 
