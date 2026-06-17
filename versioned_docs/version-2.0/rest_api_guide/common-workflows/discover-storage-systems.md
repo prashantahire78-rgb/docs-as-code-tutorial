@@ -1,7 +1,7 @@
----
+﻿---
 id: discover-storage-systems
 title: Discover Storage Systems
-description: Workflow for automating storage discovery with StorageSphere Enterprise 2.0 REST APIs.
+description: Workflow for automating storage discovery with StorageSphere Enterprise REST APIs.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic describes a common API workflow for automating storage system discovery in StorageSphere Enterprise 2.0. Discovery automation typically validates an existing storage system configuration, starts a discovery job, monitors job status, and verifies discovered resources.
+This topic describes a common API workflow for automating storage system discovery in StorageSphere Enterprise. Discovery automation typically validates an existing storage system configuration, starts a discovery job, monitors job status, and verifies discovered resources.
 
 This workflow is conceptual. Use the generated API Reference for exact endpoints, request fields, and response schemas.
 

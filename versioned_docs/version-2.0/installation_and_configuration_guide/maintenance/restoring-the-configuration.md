@@ -1,7 +1,7 @@
----
+﻿---
 id: restoring-the-configuration
 title: Restoring the Configuration
-description: Steps to restore StorageSphere Enterprise 2.0 configuration from a verified backup.
+description: Steps to restore StorageSphere Enterprise configuration from a verified backup.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to restore the StorageSphere Enterprise 2.0 configuration from a verified backup. Restore configuration when recovering from configuration corruption, failed maintenance, host replacement, or a controlled rollback plan.
+This topic describes how to restore the StorageSphere Enterprise configuration from a verified backup. Restore configuration when recovering from configuration corruption, failed maintenance, host replacement, or a controlled rollback plan.
 
 Restore only from backups that were created and verified for the same StorageSphere Enterprise major version unless NovaStor Technologies support provides different guidance.
 

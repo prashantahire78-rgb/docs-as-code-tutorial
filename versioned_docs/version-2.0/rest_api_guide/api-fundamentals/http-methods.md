@@ -1,7 +1,7 @@
----
+﻿---
 id: http-methods
 title: HTTP Methods
-description: Reference information for HTTP methods used by StorageSphere Enterprise 2.0 REST APIs.
+description: Reference information for HTTP methods used by StorageSphere Enterprise REST APIs.
 sidebar_position: 1
 ---
 

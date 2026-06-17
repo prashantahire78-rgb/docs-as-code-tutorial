@@ -1,7 +1,7 @@
----
+﻿---
 id: configuring-email-notifications
 title: Configuring Email Notifications
-description: Steps to configure SMTP email notifications for StorageSphere Enterprise 2.0.
+description: Steps to configure SMTP email notifications for StorageSphere Enterprise.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to configure email notifications for StorageSphere Enterprise 2.0. StorageSphere Enterprise uses email to send alert notifications, report delivery messages, license warnings, and system health notifications through your SMTP relay.
+This topic describes how to configure email notifications for StorageSphere Enterprise. StorageSphere Enterprise uses email to send alert notifications, report delivery messages, license warnings, and system health notifications through your SMTP relay.
 
 Configure email notifications after the management server and database are installed and running.
 

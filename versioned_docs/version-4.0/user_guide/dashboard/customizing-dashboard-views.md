@@ -1,7 +1,7 @@
----
+﻿---
 id: customizing-dashboard-views
 title: Customizing Dashboard Views
-description: Steps to customize dashboard views in StorageSphere Enterprise 3.0.
+description: Steps to customize dashboard views in StorageSphere Enterprise.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to customize dashboard views in StorageSphere Enterprise 3.0. Dashboard customization lets you select widgets, filters, time ranges, and layouts that match your operational responsibilities.
+This topic describes how to customize dashboard views in StorageSphere Enterprise. Dashboard customization lets you select widgets, filters, time ranges, and layouts that match your operational responsibilities.
 
 ## Before You Begin
 

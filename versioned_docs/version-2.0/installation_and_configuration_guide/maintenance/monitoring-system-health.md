@@ -1,7 +1,7 @@
----
+﻿---
 id: monitoring-system-health
 title: Monitoring System Health
-description: Steps to monitor StorageSphere Enterprise 2.0 system health.
+description: Steps to monitor StorageSphere Enterprise system health.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to monitor StorageSphere Enterprise 2.0 system health. System health monitoring helps administrators confirm that the management server, database, collectors, discovery jobs, alert processing, reporting services, and integrations are operating normally.
+This topic describes how to monitor StorageSphere Enterprise system health. System health monitoring helps administrators confirm that the management server, database, collectors, discovery jobs, alert processing, reporting services, and integrations are operating normally.
 
 Monitor system health during daily operations, after maintenance, after upgrades, and before starting large discovery or reporting jobs.
 
@@ -17,7 +17,7 @@ Monitor system health during daily operations, after maintenance, after upgrades
 
 ### Prerequisites
 
-- Installed and licensed StorageSphere Enterprise 2.0. See [Installing the License](../installation/installing-the-license).
+- Installed and licensed StorageSphere Enterprise. See [Installing the License](../installation/installing-the-license).
 - StorageSphere Administrator or Storage Operator role access.
 - Configured email notifications for health alerts. See [Configuring Email Notifications](../installation/configuring-email-notifications).
 - Healthy HTTPS access to the web UI. See [Configuring HTTPS](../security-configuration/configuring-https).

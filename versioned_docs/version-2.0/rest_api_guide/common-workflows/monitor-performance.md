@@ -1,7 +1,7 @@
----
+﻿---
 id: monitor-performance
 title: Monitor Performance
-description: Workflow for retrieving performance data with StorageSphere Enterprise 2.0 REST APIs.
+description: Workflow for retrieving performance data with StorageSphere Enterprise REST APIs.
 sidebar_position: 3
 ---
 

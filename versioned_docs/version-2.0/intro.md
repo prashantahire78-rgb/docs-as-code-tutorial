@@ -1,7 +1,7 @@
 ---
 id: intro
 title: StorageSphere Enterprise Documentation
-description: Documentation portal for StorageSphere Enterprise 2.0.
+description: Documentation portal for StorageSphere Enterprise.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-Welcome to the **StorageSphere Enterprise 2.0** documentation portal. Use this site to install, configure, operate, maintain, and integrate StorageSphere Enterprise in enterprise storage environments.
+Welcome to the **StorageSphere Enterprise** documentation portal. Use this site to install, configure, operate, maintain, and integrate StorageSphere Enterprise in enterprise storage environments.
 
 StorageSphere Enterprise is a centralized storage monitoring and management platform from **NovaStor Technologies**. The platform helps storage and infrastructure teams discover storage systems, monitor capacity and performance, manage alerts and events, run reports, administer users, and integrate operational data through REST APIs.
 
@@ -34,7 +34,7 @@ StorageSphere Enterprise is a centralized storage monitoring and management plat
 | REST APIs | Automate storage operations and integrate monitoring data with external tools |
 
 ::::note
-This portal assumes StorageSphere Enterprise 2.0 is installed and available in your environment. Start with the Installation and Configuration Guide if you are planning a new deployment.
+This portal assumes StorageSphere Enterprise is installed and available in your environment. Start with the Installation and Configuration Guide if you are planning a new deployment.
 ::::
 
 ## Recommended Starting Points

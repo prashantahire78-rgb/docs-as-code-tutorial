@@ -1,7 +1,7 @@
----
+﻿---
 id: troubleshooting-missing-inventory
 title: Troubleshooting Missing Inventory
-description: Steps to troubleshoot missing inventory in StorageSphere Enterprise 2.0.
+description: Steps to troubleshoot missing inventory in StorageSphere Enterprise.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to troubleshoot missing inventory in StorageSphere Enterprise 2.0. Missing inventory can occur when discovery is stale, filters hide resources, collectors are unhealthy, permissions are incomplete, or the storage platform does not expose the expected object.
+This topic describes how to troubleshoot missing inventory in StorageSphere Enterprise. Missing inventory can occur when discovery is stale, filters hide resources, collectors are unhealthy, permissions are incomplete, or the storage platform does not expose the expected object.
 
 ## Before You Begin
 

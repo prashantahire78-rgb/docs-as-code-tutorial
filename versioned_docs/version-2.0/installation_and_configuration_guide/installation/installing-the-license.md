@@ -1,7 +1,7 @@
----
+﻿---
 id: installing-the-license
 title: Installing the License
-description: Steps to install and verify a StorageSphere Enterprise 2.0 license.
+description: Steps to install and verify a StorageSphere Enterprise license.
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 ## Overview
 
-This topic describes how to install a license for StorageSphere Enterprise 2.0. A valid license enables production use of storage discovery, capacity monitoring, performance monitoring, alert management, reporting, RBAC, email notifications, and REST API access.
+This topic describes how to install a license for StorageSphere Enterprise. A valid license enables production use of storage discovery, capacity monitoring, performance monitoring, alert management, reporting, RBAC, email notifications, and REST API access.
 
 Install the license after the management server and database are configured. You can install a license through the web UI or by using the command line on the management server.
 
@@ -20,7 +20,7 @@ Install the license after the management server and database are configured. You
 - Installed StorageSphere Server. See [Installing StorageSphere Server](./installing-storagesphere-server).
 - Configured database connection. See [Configuring the Database](./configuring-the-database).
 - Management server FQDN and system fingerprint available.
-- License file issued by NovaStor Technologies for StorageSphere Enterprise 2.0.
+- License file issued by NovaStor Technologies for StorageSphere Enterprise.
 - Local administrator or StorageSphere Administrator role access.
 - Email notifications configured if you want license expiration alerts. See [Configuring Email Notifications](./configuring-email-notifications).
 
@@ -228,7 +228,7 @@ Confirm that the following conditions are true before you continue.
 | Check | Expected result |
 |---|---|
 | License status | License status is `valid` |
-| Product and version | License shows StorageSphere Enterprise 2.0 |
+| Product and version | License shows StorageSphere Enterprise |
 | Asset capacity | Licensed asset count matches purchased capacity |
 | Expiration date | Date matches the active subscription or agreement |
 | Feature access | Licensed features are enabled in the web UI |
@@ -244,7 +244,7 @@ sudo ssphere-license status --format text
 
 ### License installation fails
 
-- Confirm that the license file is for StorageSphere Enterprise 2.0.
+- Confirm that the license file is for StorageSphere Enterprise.
 - Verify that the file was not modified after download.
 - Check whether the license is bound to a different system fingerprint.
 - Review `/var/log/ssphere/license-service.log` for validation errors.

@@ -1,7 +1,7 @@
----
+﻿---
 id: authorization
 title: Authorization
-description: Overview of REST API authorization for StorageSphere Enterprise 3.0.
+description: Overview of REST API authorization for StorageSphere Enterprise.
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## Overview
 
-StorageSphere Enterprise 3.0 uses Role-Based Access Control (RBAC) to authorize REST API requests. After authentication succeeds, StorageSphere Enterprise evaluates the caller's role and permissions before allowing access to a resource or action.
+StorageSphere Enterprise uses Role-Based Access Control (RBAC) to authorize REST API requests. After authentication succeeds, StorageSphere Enterprise evaluates the caller's role and permissions before allowing access to a resource or action.
 
 Authorization applies to API clients and web UI users consistently.
 

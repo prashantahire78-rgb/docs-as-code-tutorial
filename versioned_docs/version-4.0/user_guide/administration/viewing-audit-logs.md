@@ -1,7 +1,7 @@
----
+﻿---
 id: viewing-audit-logs
 title: Viewing Audit Logs
-description: Steps to view audit logs in StorageSphere Enterprise 3.0.
+description: Steps to view audit logs in StorageSphere Enterprise.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to view audit logs in StorageSphere Enterprise 3.0. Audit logs record administrative, security, authentication, report, and API activities for accountability and compliance review.
+This topic describes how to view audit logs in StorageSphere Enterprise. Audit logs record administrative, security, authentication, report, and API activities for accountability and compliance review.
 
 ## Before You Begin
 

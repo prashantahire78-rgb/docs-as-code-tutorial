@@ -1,7 +1,7 @@
----
+﻿---
 id: introduction_ug
 title: User Guide
-description: Introduction to using StorageSphere Enterprise 3.0 for storage operations.
+description: Introduction to using StorageSphere Enterprise for storage operations.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This guide explains how to use **StorageSphere Enterprise 3.0** from **NovaStor Technologies** after installation and initial configuration are complete. Use this guide to monitor storage infrastructure, investigate health and performance issues, manage alerts, run reports, and perform day-to-day administration.
+This guide explains how to use **StorageSphere Enterprise** from **NovaStor Technologies** after installation and initial configuration are complete. Use this guide to monitor storage infrastructure, investigate health and performance issues, manage alerts, run reports, and perform day-to-day administration.
 
 StorageSphere Enterprise provides a centralized operational view of storage systems, pools, volumes, hosts, capacity, performance, alerts, events, reports, users, and audit activity across enterprise environments.
 

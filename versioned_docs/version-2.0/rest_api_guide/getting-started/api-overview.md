@@ -1,7 +1,7 @@
----
+﻿---
 id: api-overview
 title: API Overview
-description: Overview of the StorageSphere Enterprise 2.0 REST API model.
+description: Overview of the StorageSphere Enterprise REST API model.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-The StorageSphere Enterprise 2.0 REST APIs provide programmatic access to inventory, monitoring, alert, report, and administrative data. API clients communicate with the management server over HTTPS and exchange JSON request and response bodies.
+The StorageSphere Enterprise REST APIs provide programmatic access to inventory, monitoring, alert, report, and administrative data. API clients communicate with the management server over HTTPS and exchange JSON request and response bodies.
 
 Use the APIs for integrations, automation, reporting pipelines, and operational workflows that need repeatable access to StorageSphere Enterprise data.
 

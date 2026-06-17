@@ -1,7 +1,7 @@
----
+﻿---
 id: system-requirements
 title: System Requirements
-description: Hardware and software requirements for installing StorageSphere Enterprise 2.0.
+description: Hardware and software requirements for installing StorageSphere Enterprise.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic lists the hardware and software requirements for StorageSphere Enterprise 2.0. Review these requirements before you install and configure the product. Requirements vary by deployment size and the number of storage assets you plan to monitor.
+This topic lists the hardware and software requirements for StorageSphere Enterprise. Review these requirements before you install and configure the product. Requirements vary by deployment size and the number of storage assets you plan to monitor.
 
 StorageSphere Enterprise is an enterprise storage monitoring and management platform from NovaStor Technologies. The platform supports storage discovery, capacity and performance monitoring, alert management, reporting, role-based access control (RBAC), and REST API integration.
 
@@ -78,7 +78,7 @@ Install the following packages on the management server and collectors before in
 
 ## Supported Configurations
 
-StorageSphere Enterprise 2.0 supports the following deployment configurations.
+StorageSphere Enterprise supports the following deployment configurations.
 
 | Configuration | Management server | Database | Collectors |
 |---|---|---|---|

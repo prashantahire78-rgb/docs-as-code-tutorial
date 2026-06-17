@@ -1,7 +1,7 @@
----
+﻿---
 id: deployment-architecture
 title: Deployment Architecture
-description: Architecture and components of a StorageSphere Enterprise 2.0 deployment.
+description: Architecture and components of a StorageSphere Enterprise deployment.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-StorageSphere Enterprise 2.0 uses a modular architecture that separates the management plane, data collection, and persistent storage. Understanding this architecture helps you plan capacity, network paths, and high-availability requirements before you install and configure the product.
+StorageSphere Enterprise uses a modular architecture that separates the management plane, data collection, and persistent storage. Understanding this architecture helps you plan capacity, network paths, and high-availability requirements before you install and configure the product.
 
 NovaStor Technologies designed StorageSphere Enterprise for enterprise environments where administrators discover, monitor, manage, and optimize storage infrastructure across data centers and remote sites.
 

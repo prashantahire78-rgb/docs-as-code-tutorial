@@ -1,7 +1,7 @@
----
+﻿---
 id: installing-storagesphere-server
 title: Installing StorageSphere Server
-description: Steps to install the StorageSphere Enterprise 2.0 management server.
+description: Steps to install the StorageSphere Enterprise management server.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic describes how to install the StorageSphere Enterprise 2.0 management server. The management server hosts the web UI, REST API, alert engine, reporting services, RBAC enforcement, and collector registration service.
+This topic describes how to install the StorageSphere Enterprise management server. The management server hosts the web UI, REST API, alert engine, reporting services, RBAC enforcement, and collector registration service.
 
 Install StorageSphere Server after you complete the prerequisites and verify that the target host meets the required platform, network, and firewall requirements.
 

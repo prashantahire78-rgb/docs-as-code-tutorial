@@ -1,7 +1,7 @@
----
+﻿---
 id: introduction_icg
 title: Installation and Configuration Guide
-description: Introduction to StorageSphere Enterprise 2.0 and the installation and configuration documentation.
+description: Introduction to StorageSphere Enterprise and the installation and configuration documentation.
 sidebar_position: 1
 ---
 
@@ -9,13 +9,13 @@ sidebar_position: 1
 
 ## Overview
 
-This guide explains how to install and configure **StorageSphere Enterprise 2.0**, an enterprise storage monitoring and management platform from **NovaStor Technologies**. Use this guide to plan, deploy, and configure the product in your environment.
+This guide explains how to install and configure **StorageSphere Enterprise**, an enterprise storage monitoring and management platform from **NovaStor Technologies**. Use this guide to plan, deploy, and configure the product in your environment.
 
 StorageSphere Enterprise enables administrators to discover, monitor, manage, and optimize storage infrastructure across data centers and remote sites. The platform provides a single management console for capacity and performance visibility, alert management, reporting, and access control.
 
 ## About StorageSphere Enterprise
 
-StorageSphere Enterprise 2.0 is designed for IT operations teams, storage administrators, and platform engineers who manage heterogeneous storage environments. The product consolidates inventory, metrics, and alerts from block, file, and object storage systems into one operational view.
+StorageSphere Enterprise is designed for IT operations teams, storage administrators, and platform engineers who manage heterogeneous storage environments. The product consolidates inventory, metrics, and alerts from block, file, and object storage systems into one operational view.
 
 ### Key capabilities
 

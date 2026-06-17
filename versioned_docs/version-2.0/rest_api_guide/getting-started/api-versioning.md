@@ -1,7 +1,7 @@
----
+﻿---
 id: api-versioning
 title: API Versioning
-description: Reference information about REST API versioning in StorageSphere Enterprise 2.0.
+description: Reference information about REST API versioning in StorageSphere Enterprise.
 sidebar_position: 5
 ---
 

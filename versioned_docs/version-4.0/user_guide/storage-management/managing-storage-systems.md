@@ -1,7 +1,7 @@
----
+﻿---
 id: managing-storage-systems
 title: Managing Storage Systems
-description: Steps to review and manage storage systems in StorageSphere Enterprise 3.0.
+description: Steps to review and manage storage systems in StorageSphere Enterprise.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to review and manage storage systems in StorageSphere Enterprise 3.0. Storage system pages provide status, capacity, performance, discovery, alert, and relationship information for arrays, clusters, and appliances.
+This topic describes how to review and manage storage systems in StorageSphere Enterprise. Storage system pages provide status, capacity, performance, discovery, alert, and relationship information for arrays, clusters, and appliances.
 
 ## Before You Begin
 

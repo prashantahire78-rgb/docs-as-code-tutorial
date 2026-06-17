@@ -1,7 +1,7 @@
----
+﻿---
 id: supported-platforms
 title: Supported Platforms
-description: Operating systems, hypervisors, and platforms supported by StorageSphere Enterprise 2.0.
+description: Operating systems, hypervisors, and platforms supported by StorageSphere Enterprise.
 sidebar_position: 2
 ---
 
@@ -9,9 +9,9 @@ sidebar_position: 2
 
 ## Overview
 
-This topic identifies the operating systems, hypervisors, and directory services that StorageSphere Enterprise 2.0 supports. Verify that your environment uses a supported platform before you install and configure the product.
+This topic identifies the operating systems, hypervisors, and directory services that StorageSphere Enterprise supports. Verify that your environment uses a supported platform before you install and configure the product.
 
-NovaStor Technologies tests StorageSphere Enterprise 2.0 on the platforms listed in this topic. Platforms not listed might work but are not officially supported.
+NovaStor Technologies tests StorageSphere Enterprise on the platforms listed in this topic. Platforms not listed might work but are not officially supported.
 
 ## Requirements
 
@@ -56,7 +56,7 @@ LDAP and Active Directory authentication require network connectivity from the m
 
 ### Monitored storage systems
 
-StorageSphere Enterprise 2.0 discovers and monitors storage systems from major vendors through SNMP, REST APIs, and vendor-specific agents. Supported categories include:
+StorageSphere Enterprise discovers and monitors storage systems from major vendors through SNMP, REST APIs, and vendor-specific agents. Supported categories include:
 
 | Category | Examples |
 |---|---|

@@ -1,7 +1,7 @@
----
+﻿---
 id: configuring-role-based-access-control-rbac
 title: Configuring Role-Based Access Control (RBAC)
-description: Steps to configure Role-Based Access Control in StorageSphere Enterprise 2.0.
+description: Steps to configure Role-Based Access Control in StorageSphere Enterprise.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to configure Role-Based Access Control (RBAC) for StorageSphere Enterprise 2.0. RBAC controls which users and groups can administer the platform, manage storage discovery, view inventory, acknowledge alerts, run reports, and access REST APIs.
+This topic describes how to configure Role-Based Access Control (RBAC) for StorageSphere Enterprise. RBAC controls which users and groups can administer the platform, manage storage discovery, view inventory, acknowledge alerts, run reports, and access REST APIs.
 
 Configure RBAC after authentication is configured. You can assign roles to local users, LDAP groups, or Active Directory groups, depending on the authentication providers enabled in your deployment.
 
@@ -17,7 +17,7 @@ Configure RBAC after authentication is configured. You can assign roles to local
 
 ### Prerequisites
 
-- Installed and licensed StorageSphere Enterprise 2.0. See [Installing the License](../installation/installing-the-license).
+- Installed and licensed StorageSphere Enterprise. See [Installing the License](../installation/installing-the-license).
 - StorageSphere Administrator role access.
 - Configured HTTPS for administrator access. See [Configuring HTTPS](./configuring-https).
 - Configured LDAP or Active Directory authentication if you plan to map directory groups. See [Configuring LDAP Authentication](../installation/configuring-ldap-authentication) or [Configuring Active Directory Authentication](../installation/configuring-active-directory-authentication).
