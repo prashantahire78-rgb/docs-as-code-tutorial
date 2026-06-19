@@ -48,24 +48,29 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           includeCurrentVersion: false,
-lastVersion: '4.0',
-versions: {
-  '4.0': {
-    label: 'v4.0',
-    path: '/',
-    banner: 'none',
-  },
-  '3.0': {
-    label: 'v3.0',
-    path: '3.0',
-    banner: 'none',
-  },
-  '2.0': {
-    label: 'v2.0',
-    path: '2.0',
-    banner: 'none',
-  },
-},
+          lastVersion: '5.0',
+          versions: {
+            '5.0': {
+              label: 'v5.0',
+              path: '/',
+              banner: 'none',
+            },
+            '4.0': {
+              label: 'v4.0',
+              path: '4.0',
+              banner: 'none',
+            },
+            '3.0': {
+              label: 'v3.0',
+              path: '3.0',
+              banner: 'none',
+            },
+            '2.0': {
+              label: 'v2.0',
+              path: '2.0',
+              banner: 'none',
+            },
+          },
           editUrl:
             'https://github.com/prashantahire78-rgb/docs-as-code-tutorial/tree/main/',
         },
