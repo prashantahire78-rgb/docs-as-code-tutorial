@@ -213,10 +213,11 @@ module.exports = {
             'rest_api_guide/api-reference/list-performance-metrics',
             'rest_api_guide/api-reference/get-storage-system-details',
             'rest_api_guide/api-reference/list-alerts',
+            'rest_api_guide/api-reference/get-alert-details',
             'rest_api_guide/api-reference/acknowledge-an-alert',
             'rest_api_guide/api-reference/list-reports',
             'rest_api_guide/api-reference/generate-a-report',
-            'rest_api_guide/api-reference/get-job-status',
+            'rest_api_guide/api-reference/get-job-status',            
           ],
         },
         {

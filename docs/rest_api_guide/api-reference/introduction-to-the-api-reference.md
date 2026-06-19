@@ -22,9 +22,7 @@ Use the API Reference when you need exact endpoint paths, supported methods, req
 | Endpoint documentation | Operation-specific details for paths, parameters, schemas, and responses |
 | Synchronization | Generated reference content stays aligned with the implemented API contract |
 
-::::note
-This chapter intentionally contains only this introductory topic. Endpoint reference topics, operation pages, schemas, and request or response models will be generated from the OpenAPI specification in a later phase.
-::::
+When the OpenAPI specification changes, run `npm run generate:api-docs` to regenerate the API reference topics under `docs/rest_api_guide/api-reference/`. Register new topics in `sidebars.js` so they appear in the left navigation.
 
 ## Best Practices
 

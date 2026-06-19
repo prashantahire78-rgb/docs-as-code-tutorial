@@ -28,22 +28,22 @@ This API does not use request parameters.
 ## Request body
 
 | Field | Required | Type | Description |
-| ----- | -------: | ---- | ----------- |
-| `username` | Yes | string | User name used to generate the API token. |
-| `password` | Yes | string | Password used to generate the API token. |
+| --- | --- | --- | --- |
+| `username` | Yes | string |  |
+| `password` | Yes | string |  |
 
 ## Response body
 
 | Field | Type | Description |
-| ----- | ---- | ----------- |
-| `accessToken` | string | API token value. |
-| `tokenType` | string | Token type returned by the API. |
-| `expiresIn` | integer | Token lifetime in seconds. |
+| --- | --- | --- |
+| `accessToken` | string |  |
+| `tokenType` | string |  |
+| `expiresIn` | integer |  |
 
 ## Response codes
 
 | Status code | Description |
-| ----------: | ----------- |
+| --- | --- |
 | 200 | API token generated successfully. |
 | 400 | The request body is invalid. |
 | 401 | The user credentials are invalid. |
@@ -52,12 +52,12 @@ This API does not use request parameters.
 
 ```bash
 curl -X POST "https://api.storagesphere.example.com/v1/auth/token" \
-  -H "Content-Type: application/json" \
   -H "Accept: application/json" \
-  -d '{
-    "username": "api-admin",
-    "password": "ChangeMe123!"
-  }'
+  -H "Content-Type: application/json" \
+  -d '{,
+  "username": "api-admin",,
+  "password": "ChangeMe123!",
+}'
 ```
 
 ## Example response
@@ -72,7 +72,7 @@ curl -X POST "https://api.storagesphere.example.com/v1/auth/token" \
 
 ## Error handling
 
-If the request body is invalid, the API returns `400`. If the user credentials are invalid, the API returns `401`.
+If the request fails, the API returns `400` (The request body is invalid). If the request fails, the API returns `401` (The user credentials are invalid).
 
 ## Related topics
 

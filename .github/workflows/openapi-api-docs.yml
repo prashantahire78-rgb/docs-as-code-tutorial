@@ -1,0 +1,51 @@
+name: OpenAPI API Reference
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'openapi/**'
+      - 'scripts/generate-api-docs.js'
+      - '.github/workflows/openapi-api-docs.yml'
+  pull_request:
+    branches:
+      - '*'
+    paths:
+      - 'openapi/**'
+      - 'scripts/generate-api-docs.js'
+      - '.github/workflows/openapi-api-docs.yml'
+  workflow_dispatch:
+
+jobs:
+  openapi-api-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint OpenAPI specification
+        run: npm run lint:openapi
+
+      - name: Generate API reference Markdown
+        run: npm run generate:api-docs
+
+      - name: Verify generated API reference is in sync
+        run: |
+          git diff --exit-code -- docs/rest_api_guide/api-reference/
+          if [ $? -ne 0 ]; then
+            echo ""
+            echo "Generated API reference Markdown is out of sync with openapi/storagesphere-api.yaml."
+            echo "Run 'npm run generate:api-docs' locally, review the diff, and commit the updated files."
+            exit 1
+          fi

@@ -270,6 +270,34 @@ paths:
           description: The request is not authenticated.
         "403":
           description: The authenticated user does not have permission to view alerts.
+  /alerts/{alertId}:
+    get:
+      tags:
+        - Alerts
+      summary: Get alert details
+      description: Retrieves detailed information about a specific alert, including severity, status, resource context, and acknowledgment history.
+      operationId: getAlertDetails
+      parameters:
+        - name: alertId
+          in: path
+          required: true
+          description: Unique identifier of the alert.
+          schema:
+            type: string
+            example: alert-001
+      responses:
+        "200":
+          description: Alert details retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Alert"
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to view alert details.
+        "404":
+          description: The specified alert was not found.
 
   /alerts/{alertId}/acknowledge:
     post:

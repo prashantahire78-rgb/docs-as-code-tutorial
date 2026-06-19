@@ -2,7 +2,7 @@
 id: get-job-status
 title: Get job status
 description: Retrieves the current status of an asynchronous job.
-sidebar_position: 12
+sidebar_position: 13
 ---
 
 # Get job status
@@ -28,7 +28,7 @@ Authorization: Bearer <access-token>
 ## Request parameters
 
 | Parameter | Location | Required | Type | Description |
-| --------- | -------- | -------: | ---- | ----------- |
+| --- | --- | --- | --- | --- |
 | `jobId` | path | Yes | string | Unique identifier of the asynchronous job. |
 
 ## Request body
@@ -38,18 +38,18 @@ This API does not require a request body.
 ## Response body
 
 | Field | Type | Description |
-| ----- | ---- | ----------- |
-| `jobId` | string | Job identifier. |
-| `status` | string | Job status. Supported values: `queued`, `running`, `completed`, `completedWithWarnings`, `failed`, `canceled`. |
-| `jobType` | string | Job type. |
-| `message` | string | Job status message. |
-| `createdAt` | string | Job creation timestamp. Format: `date-time`. |
-| `updatedAt` | string | Job update timestamp. Format: `date-time`. |
+| --- | --- | --- |
+| `jobId` | string |  |
+| `status` | string | Value Supported values: `queued`, `running`, `completed`, `completedWithWarnings`, `failed`, `canceled`. |
+| `jobType` | string |  |
+| `message` | string |  |
+| `createdAt` | string | Format: `date-time`. |
+| `updatedAt` | string | Format: `date-time`. |
 
 ## Response codes
 
 | Status code | Description |
-| ----------: | ----------- |
+| --- | --- |
 | 200 | Job status retrieved successfully. |
 | 401 | The request is not authenticated. |
 | 403 | The authenticated user does not have permission to view job status. |
@@ -78,12 +78,12 @@ curl -X GET "https://api.storagesphere.example.com/v1/jobs/DISC-20260613-00042" 
 
 ## Error handling
 
-If the request is not authenticated, the API returns `401`. If the authenticated user does not have permission to view job status, the API returns `403`. If the specified job is not found, the API returns `404`.
+If the request fails, the API returns `401` (The request is not authenticated). If the request fails, the API returns `403` (The authenticated user does not have permission to view job status). If the request fails, the API returns `404` (The specified job was not found).
 
 ## Related topics
 
 - [API overview](../getting-started/api-overview)
 - [Authentication](../getting-started/authentication)
 - [Authorization](../getting-started/authorization)
-- [Generate a report](./generate-a-report)
+- [Error handling](../api-fundamentals/error-handling)
 - [HTTP status codes](../api-fundamentals/http-status-codes)

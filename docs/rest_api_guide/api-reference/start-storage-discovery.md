@@ -2,7 +2,7 @@
 id: start-storage-discovery
 title: Start storage discovery
 description: Starts a storage discovery job for a specified storage system.
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Start storage discovery
@@ -32,23 +32,23 @@ This API does not use request parameters.
 ## Request body
 
 | Field | Required | Type | Description |
-| ----- | -------: | ---- | ----------- |
-| `storageSystemId` | Yes | string | Storage system identifier. |
-| `discoveryType` | Yes | string | Discovery type. Supported values: `full`, `incremental`, `inventoryOnly`. |
-| `enablePerformanceMonitoring` | No | boolean | Indicates whether performance monitoring is enabled. |
+| --- | --- | --- | --- |
+| `storageSystemId` | Yes | string |  |
+| `discoveryType` | Yes | string |  Supported values: `full`, `incremental`, `inventoryOnly`. |
+| `enablePerformanceMonitoring` | No | boolean |  |
 
 ## Response body
 
 | Field | Type | Description |
-| ----- | ---- | ----------- |
-| `jobId` | string | Discovery job identifier. |
-| `status` | string | Discovery job status. |
-| `message` | string | Discovery job message. |
+| --- | --- | --- |
+| `jobId` | string |  |
+| `status` | string |  |
+| `message` | string |  |
 
 ## Response codes
 
 | Status code | Description |
-| ----------: | ----------- |
+| --- | --- |
 | 202 | Storage discovery job accepted. |
 | 400 | The discovery request is invalid. |
 | 401 | The request is not authenticated. |
@@ -59,13 +59,13 @@ This API does not use request parameters.
 ```bash
 curl -X POST "https://api.storagesphere.example.com/v1/storage-discovery/jobs" \
   -H "Authorization: Bearer <access-token>" \
-  -H "Content-Type: application/json" \
   -H "Accept: application/json" \
-  -d '{
-    "storageSystemId": "ss-001",
-    "discoveryType": "full",
-    "enablePerformanceMonitoring": true
-  }'
+  -H "Content-Type: application/json" \
+  -d '{,
+  "storageSystemId": "ss-001",,
+  "discoveryType": "full",,
+  "enablePerformanceMonitoring": true,
+}'
 ```
 
 ## Example response
@@ -80,12 +80,12 @@ curl -X POST "https://api.storagesphere.example.com/v1/storage-discovery/jobs" \
 
 ## Error handling
 
-If the discovery request is invalid, the API returns `400`. If the request is not authenticated, the API returns `401`. If the specified storage system is not found, the API returns `404`.
+If the request fails, the API returns `400` (The discovery request is invalid). If the request fails, the API returns `401` (The request is not authenticated). If the request fails, the API returns `404` (The specified storage system was not found).
 
 ## Related topics
 
 - [API overview](../getting-started/api-overview)
 - [Authentication](../getting-started/authentication)
 - [Authorization](../getting-started/authorization)
-- [Discover storage systems](../common-workflows/discover-storage-systems)
 - [Error handling](../api-fundamentals/error-handling)
+- [HTTP status codes](../api-fundamentals/http-status-codes)

@@ -1,20 +1,20 @@
 ---
-id: acknowledge-an-alert
-title: Acknowledge an alert
-description: Acknowledges a selected alert.
-sidebar_position: 10
+id: get-alert-details
+title: Get alert details
+description: Retrieves detailed information about a specific alert, including severity, status, resource context, and acknowledgment history.
+sidebar_position: 9
 ---
 
-# Acknowledge an alert
+# Get alert details
 
 ## Overview
 
-Acknowledges a selected alert.
+Retrieves detailed information about a specific alert, including severity, status, resource context, and acknowledgment history.
 
 ## HTTP method and endpoint
 
 ```http
-POST /alerts/{alertId}/acknowledge
+GET /alerts/{alertId}
 ```
 
 ## Authentication
@@ -33,9 +33,7 @@ Authorization: Bearer <access-token>
 
 ## Request body
 
-| Field | Required | Type | Description |
-| --- | --- | --- | --- |
-| `note` | No | string |  |
+This API does not require a request body.
 
 ## Response body
 
@@ -55,22 +53,17 @@ Authorization: Bearer <access-token>
 
 | Status code | Description |
 | --- | --- |
-| 200 | Alert acknowledged successfully. |
-| 400 | The acknowledge request is invalid. |
+| 200 | Alert details retrieved successfully. |
 | 401 | The request is not authenticated. |
-| 403 | The authenticated user does not have permission to acknowledge alerts. |
+| 403 | The authenticated user does not have permission to view alert details. |
 | 404 | The specified alert was not found. |
 
 ## Example request
 
 ```bash
-curl -X POST "https://api.storagesphere.example.com/v1/alerts/alert-001/acknowledge" \
+curl -X GET "https://api.storagesphere.example.com/v1/alerts/alert-001" \
   -H "Authorization: Bearer <access-token>" \
-  -H "Accept: application/json" \
-  -H "Content-Type: application/json" \
-  -d '{,
-  "note": "Investigating the storage pool utilization warning.",
-}'
+  -H "Accept: application/json"
 ```
 
 ## Example response
@@ -91,7 +84,7 @@ curl -X POST "https://api.storagesphere.example.com/v1/alerts/alert-001/acknowle
 
 ## Error handling
 
-If the request fails, the API returns `400` (The acknowledge request is invalid). If the request fails, the API returns `401` (The request is not authenticated). If the request fails, the API returns `403` (The authenticated user does not have permission to acknowledge alerts). If the request fails, the API returns `404` (The specified alert was not found).
+If the request fails, the API returns `401` (The request is not authenticated). If the request fails, the API returns `403` (The authenticated user does not have permission to view alert details). If the request fails, the API returns `404` (The specified alert was not found).
 
 ## Related topics
 
