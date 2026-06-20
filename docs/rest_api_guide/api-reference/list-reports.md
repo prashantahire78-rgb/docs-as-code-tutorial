@@ -2,7 +2,7 @@
 id: list-reports
 title: List reports
 description: Retrieves the list of available reports.
-sidebar_position: 11
+sidebar_position: 12
 ---
 
 # List reports

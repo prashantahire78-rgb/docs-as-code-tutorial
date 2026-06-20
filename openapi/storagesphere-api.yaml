@@ -298,6 +298,48 @@ paths:
           description: The authenticated user does not have permission to view alert details.
         "404":
           description: The specified alert was not found.
+  /alerts/{alertId}/history:
+    get:
+      tags:
+        - Alerts
+      summary: Get alert history
+      description: Retrieves the status change and acknowledgment history for a specific alert.
+      operationId: getAlertHistory
+      parameters:
+        - name: alertId
+          in: path
+          required: true
+          description: Unique identifier of the alert.
+          schema:
+            type: string
+            example: alert-001
+        - name: from
+          in: query
+          required: false
+          description: Start time for the history query.
+          schema:
+            type: string
+            format: date-time
+        - name: to
+          in: query
+          required: false
+          description: End time for the history query.
+          schema:
+            type: string
+            format: date-time
+      responses:
+        "200":
+          description: Alert history retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AlertHistoryResponse"
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to view alert history.
+        "404":
+          description: The specified alert was not found.
 
   /alerts/{alertId}/acknowledge:
     post:
@@ -692,7 +734,41 @@ components:
         count:
           type: integer
           example: 1
-
+    AlertHistoryEntry:
+      type: object
+      properties:
+        timestamp:
+          type: string
+          format: date-time
+          example: "2026-06-13T09:45:00Z"
+        action:
+          type: string
+          enum:
+            - created
+            - acknowledged
+            - resolved
+            - cleared
+            - severityChanged
+          example: acknowledged
+        user:
+          type: string
+          example: storage-operator
+        note:
+          type: string
+          example: Investigating pool utilization warning.
+    AlertHistoryResponse:
+      type: object
+      properties:
+        alertId:
+          type: string
+          example: alert-001
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/AlertHistoryEntry"
+        count:
+          type: integer
+          example: 2
     AcknowledgeAlertRequest:
       type: object
       properties:
