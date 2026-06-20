@@ -47,12 +47,17 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          includeCurrentVersion: true,
-          lastVersion: '5.0',
+          includeCurrentVersion: false,
+          lastVersion: '5.1',
           versions: {
+            '5.1': {
+              label: 'v5.1',
+              path: '/',
+              banner: 'none',
+            },
             '5.0': {
               label: 'v5.0',
-              path: '/',
+              path: '5.0',
               banner: 'none',
             },
             '4.0': {
