@@ -47,7 +47,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          includeCurrentVersion: false,
+          includeCurrentVersion: true,
           lastVersion: '5.0',
           versions: {
             '5.0': {

@@ -2,7 +2,7 @@
 id: generate-a-report
 title: Generate a report
 description: Starts report generation.
-sidebar_position: 12
+sidebar_position: 13
 ---
 
 # Generate a report

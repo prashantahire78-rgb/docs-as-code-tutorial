@@ -2,7 +2,7 @@
 id: acknowledge-an-alert
 title: Acknowledge an alert
 description: Acknowledges a selected alert.
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 # Acknowledge an alert
