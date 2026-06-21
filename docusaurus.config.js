@@ -48,11 +48,16 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           includeCurrentVersion: false,
-          lastVersion: '5.2',
+          lastVersion: '5.3',
           versions: {
+            '5.3': {
+              label: 'v5.3',
+              path: '/',
+              banner: 'none',
+            },
             '5.2': {
               label: 'v5.2',
-              path: '/',
+              path: '5.2',
               banner: 'none',
             },
             '5.1': {
