@@ -270,6 +270,7 @@ paths:
           description: The request is not authenticated.
         "403":
           description: The authenticated user does not have permission to view alerts.
+  
   /alerts/{alertId}:
     get:
       tags:
@@ -298,6 +299,7 @@ paths:
           description: The authenticated user does not have permission to view alert details.
         "404":
           description: The specified alert was not found.
+  
   /alerts/{alertId}/history:
     get:
       tags:
@@ -376,7 +378,43 @@ paths:
           description: The authenticated user does not have permission to acknowledge alerts.
         "404":
           description: The specified alert was not found.
-
+  
+  /alerts/{alertId}/resolve:
+    post:
+      tags:
+        - Alerts
+      summary: Resolve an alert
+      description: Marks an alert as resolved after remediation is complete.
+      operationId: resolveAlert
+      parameters:
+        - name: alertId
+          in: path
+          required: true
+          description: Unique identifier of the alert.
+          schema:
+            type: string
+            example: alert-001
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ResolveAlertRequest"
+      responses:
+        "200":
+          description: Alert resolved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Alert"
+        "400":
+          description: The resolve request is invalid.
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to resolve alerts.
+        "404":
+          description: The specified alert was not found.
   /reports:
     get:
       tags:
@@ -734,6 +772,7 @@ components:
         count:
           type: integer
           example: 1
+    
     AlertHistoryEntry:
       type: object
       properties:
@@ -756,6 +795,7 @@ components:
         note:
           type: string
           example: Investigating pool utilization warning.
+    
     AlertHistoryResponse:
       type: object
       properties:
@@ -769,12 +809,20 @@ components:
         count:
           type: integer
           example: 2
+          
     AcknowledgeAlertRequest:
       type: object
       properties:
         note:
           type: string
           example: Investigating the storage pool utilization warning.
+    
+    ResolveAlertRequest:
+      type: object
+      properties:
+        note:
+          type: string
+          example: Pool utilization returned to normal after expansion.
 
     Report:
       type: object
