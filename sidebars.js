@@ -218,6 +218,7 @@ module.exports = {
             'rest_api_guide/api-reference/acknowledge-an-alert',
             'rest_api_guide/api-reference/resolve-an-alert',
             'rest_api_guide/api-reference/list-reports',
+            'rest_api_guide/api-reference/get-report-details',
             'rest_api_guide/api-reference/generate-a-report',
             'rest_api_guide/api-reference/get-job-status',            
           ],
