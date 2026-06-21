@@ -447,7 +447,34 @@ paths:
           description: The request is not authenticated.
         "403":
           description: The authenticated user does not have permission to view reports.
-
+  /reports/{reportId}:
+    get:
+      tags:
+        - Reports
+      summary: Get report details
+      description: Retrieves metadata and supported formats for a specific report definition.
+      operationId: getReportDetails
+      parameters:
+        - name: reportId
+          in: path
+          required: true
+          description: Unique identifier of the report.
+          schema:
+            type: string
+            example: report-capacity-summary
+      responses:
+        "200":
+          description: Report details retrieved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Report"
+        "401":
+          description: The request is not authenticated.
+        "403":
+          description: The authenticated user does not have permission to view report details.
+        "404":
+          description: The specified report was not found.
   /reports/generation-jobs:
     post:
       tags:

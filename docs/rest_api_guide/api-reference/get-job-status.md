@@ -2,7 +2,7 @@
 id: get-job-status
 title: Get job status
 description: Retrieves the current status of an asynchronous job.
-sidebar_position: 15
+sidebar_position: 16
 ---
 
 # Get job status
