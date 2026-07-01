@@ -1,7 +1,7 @@
 ---
 id: investigating-latency-issues
 title: Investigating Latency Issues
-description: Steps to investigate storage latency issues in StorageSphere Enterprise 3.0.
+description: Steps to investigate storage latency issues in StorageSphere Enterprise.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to investigate storage latency issues in StorageSphere Enterprise 3.0. Latency investigation compares affected volumes, hosts, pools, ports, storage systems, alerts, and events to identify likely scope and cause.
+This topic describes how to investigate storage latency issues in StorageSphere Enterprise. Latency investigation compares affected volumes, hosts, pools, ports, storage systems, alerts, and events to identify likely scope and cause.
 
 ## Before You Begin
 

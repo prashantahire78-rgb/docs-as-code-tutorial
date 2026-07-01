@@ -1,7 +1,7 @@
 ---
 id: viewing-storage-inventory
 title: Viewing Storage Inventory
-description: Steps to view storage inventory in StorageSphere Enterprise 3.0.
+description: Steps to view storage inventory in StorageSphere Enterprise.
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## Overview
 
-This topic describes how to view storage inventory in StorageSphere Enterprise 3.0. Inventory views show discovered storage systems, pools, volumes, hosts, ports, and relationships across supported storage platforms.
+This topic describes how to view storage inventory in StorageSphere Enterprise. Inventory views show discovered storage systems, pools, volumes, hosts, ports, and relationships across supported storage platforms.
 
 Use inventory views to understand storage ownership, capacity, health, and resource relationships.
 

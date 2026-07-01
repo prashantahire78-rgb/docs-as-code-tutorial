@@ -1,7 +1,7 @@
 ---
 id: preparing-the-installation-environment
 title: Preparing the Installation Environment
-description: Steps to prepare hosts, accounts, and network settings before installing StorageSphere Enterprise 3.0.
+description: Steps to prepare hosts, accounts, and network settings before installing StorageSphere Enterprise.
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 ## Overview
 
-This topic describes how to prepare the management server, collector, and database hosts before you install StorageSphere Enterprise 3.0. Completing these steps reduces installation errors and avoids rework during initial configuration.
+This topic describes how to prepare the management server, collector, and database hosts before you install StorageSphere Enterprise. Completing these steps reduces installation errors and avoids rework during initial configuration.
 
 Perform this procedure after you confirm that your environment meets [System Requirements](./system-requirements) and [Supported Platforms](./supported-platforms).
 

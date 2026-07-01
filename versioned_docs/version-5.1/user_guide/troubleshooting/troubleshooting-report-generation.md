@@ -1,7 +1,7 @@
 ---
 id: troubleshooting-report-generation
 title: Troubleshooting Report Generation
-description: Steps to troubleshoot report generation issues in StorageSphere Enterprise 3.0.
+description: Steps to troubleshoot report generation issues in StorageSphere Enterprise.
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## Overview
 
-This topic describes how to troubleshoot report generation issues in StorageSphere Enterprise 3.0. Report issues can include empty reports, failed generation, slow reports, export failures, or delivery problems.
+This topic describes how to troubleshoot report generation issues in StorageSphere Enterprise. Report issues can include empty reports, failed generation, slow reports, export failures, or delivery problems.
 
 ## Before You Begin
 

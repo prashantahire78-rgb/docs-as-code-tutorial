@@ -1,7 +1,7 @@
 ---
 id: authentication
 title: Authentication
-description: Overview of REST API authentication for StorageSphere Enterprise 3.0.
+description: Overview of REST API authentication for StorageSphere Enterprise.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-StorageSphere Enterprise 3.0 REST APIs use token-based authentication. API clients include a bearer token in each request to identify the calling user or service account.
+StorageSphere Enterprise REST APIs use token-based authentication. API clients include a bearer token in each request to identify the calling user or service account.
 
 Generate and rotate API tokens according to your organization's security policy.
 

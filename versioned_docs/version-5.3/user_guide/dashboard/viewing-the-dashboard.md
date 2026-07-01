@@ -1,7 +1,7 @@
 ---
 id: viewing-the-dashboard
 title: Viewing the Dashboard
-description: Overview of the StorageSphere Enterprise 3.0 dashboard.
+description: Overview of the StorageSphere Enterprise dashboard.
 sidebar_position: 1
 ---
 

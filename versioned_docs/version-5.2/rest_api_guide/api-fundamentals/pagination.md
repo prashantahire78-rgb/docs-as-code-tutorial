@@ -1,7 +1,7 @@
 ---
 id: pagination
 title: Pagination
-description: Reference information for paginated REST API results in StorageSphere Enterprise 3.0.
+description: Reference information for paginated REST API results in StorageSphere Enterprise.
 sidebar_position: 4
 ---
 

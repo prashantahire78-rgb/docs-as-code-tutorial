@@ -1,7 +1,7 @@
 ---
 id: rolling-back-an-upgrade
 title: Rolling Back an Upgrade
-description: Steps to roll back a StorageSphere Enterprise 3.0 upgrade.
+description: Steps to roll back a StorageSphere Enterprise upgrade.
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 ## Overview
 
-This topic describes how to roll back a StorageSphere Enterprise 3.0 upgrade. Rollback returns the management server configuration, application packages, and collector versions to the approved previous state when post-upgrade validation fails or a critical issue prevents production use.
+This topic describes how to roll back a StorageSphere Enterprise upgrade. Rollback returns the management server configuration, application packages, and collector versions to the approved previous state when post-upgrade validation fails or a critical issue prevents production use.
 
 Use rollback only when the issue cannot be resolved within the maintenance window or when your change plan requires returning to the previous version.
 

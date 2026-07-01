@@ -1,7 +1,7 @@
 ---
 id: managing-hosts
 title: Managing Hosts
-description: Steps to review hosts and host relationships in StorageSphere Enterprise 3.0.
+description: Steps to review hosts and host relationships in StorageSphere Enterprise.
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 ## Overview
 
-This topic describes how to review hosts in StorageSphere Enterprise 3.0. Host views show servers, clusters, initiators, host groups, mapped volumes, health, and performance relationships.
+This topic describes how to review hosts in StorageSphere Enterprise. Host views show servers, clusters, initiators, host groups, mapped volumes, health, and performance relationships.
 
 Use host views to understand which applications or servers are affected by storage health, capacity, or performance conditions.
 

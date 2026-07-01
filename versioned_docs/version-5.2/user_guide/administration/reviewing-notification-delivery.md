@@ -1,7 +1,7 @@
 ---
 id: reviewing-notification-delivery
 title: Reviewing Notification Delivery
-description: Steps to review notification delivery in StorageSphere Enterprise 3.0.
+description: Steps to review notification delivery in StorageSphere Enterprise.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to review notification delivery in StorageSphere Enterprise 3.0. Notification views help administrators confirm whether alert, report, system health, and license notifications were sent successfully.
+This topic describes how to review notification delivery in StorageSphere Enterprise. Notification views help administrators confirm whether alert, report, system health, and license notifications were sent successfully.
 
 This topic covers operational review. For SMTP configuration, see the Installation and Configuration Guide.
 

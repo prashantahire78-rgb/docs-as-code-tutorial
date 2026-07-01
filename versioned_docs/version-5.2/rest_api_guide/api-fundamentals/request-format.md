@@ -1,7 +1,7 @@
 ---
 id: request-format
 title: Request Format
-description: Reference information for REST API request format in StorageSphere Enterprise 3.0.
+description: Reference information for REST API request format in StorageSphere Enterprise.
 sidebar_position: 2
 ---
 

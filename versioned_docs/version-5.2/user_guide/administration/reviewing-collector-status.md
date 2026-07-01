@@ -1,7 +1,7 @@
 ---
 id: reviewing-collector-status
 title: Reviewing Collector Status
-description: Steps to review collector status in StorageSphere Enterprise 3.0.
+description: Steps to review collector status in StorageSphere Enterprise.
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## Overview
 
-This topic describes how to review collector status in StorageSphere Enterprise 3.0. Collectors execute discovery and monitoring jobs near managed storage systems and report data back to the management server.
+This topic describes how to review collector status in StorageSphere Enterprise. Collectors execute discovery and monitoring jobs near managed storage systems and report data back to the management server.
 
 Use collector status views to confirm monitoring coverage and investigate discovery or metric collection gaps.
 

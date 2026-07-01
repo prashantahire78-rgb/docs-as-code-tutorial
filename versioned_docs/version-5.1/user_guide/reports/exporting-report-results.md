@@ -1,7 +1,7 @@
 ---
 id: exporting-report-results
 title: Exporting Report Results
-description: Steps to export report results from StorageSphere Enterprise 3.0.
+description: Steps to export report results from StorageSphere Enterprise.
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## Overview
 
-This topic describes how to export report results from StorageSphere Enterprise 3.0. Exported reports support operational reviews, capacity planning, incident records, and compliance evidence.
+This topic describes how to export report results from StorageSphere Enterprise. Exported reports support operational reviews, capacity planning, incident records, and compliance evidence.
 
 ## Before You Begin
 

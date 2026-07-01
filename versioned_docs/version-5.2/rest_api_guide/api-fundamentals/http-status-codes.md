@@ -1,7 +1,7 @@
 ---
 id: http-status-codes
 title: HTTP Status Codes
-description: Reference information for HTTP status codes used by StorageSphere Enterprise 3.0 REST APIs.
+description: Reference information for HTTP status codes used by StorageSphere Enterprise REST APIs.
 sidebar_position: 8
 ---
 
