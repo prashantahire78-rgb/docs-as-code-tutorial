@@ -1,7 +1,7 @@
 ---
 id: discovering-storage-systems
 title: Discovering Storage Systems
-description: Steps to run storage discovery jobs in StorageSphere Enterprise 3.0.
+description: Steps to run storage discovery jobs in StorageSphere Enterprise.
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## Overview
 
-This topic describes how to discover storage systems in StorageSphere Enterprise 3.0. Discovery connects to configured storage systems, identifies managed resources, collects inventory metadata, and creates monitored objects for capacity and performance collection.
+This topic describes how to discover storage systems in StorageSphere Enterprise. Discovery connects to configured storage systems, identifies managed resources, collects inventory metadata, and creates monitored objects for capacity and performance collection.
 
 Run discovery after you add and validate a storage system connection. You can run discovery on demand during initial onboarding or schedule recurring discovery to detect configuration changes.
 
@@ -17,7 +17,7 @@ Run discovery after you add and validate a storage system connection. You can ru
 
 ### Prerequisites
 
-- Installed and licensed StorageSphere Enterprise 3.0. See [Installing the License](../installation/installing-the-license).
+- Installed and licensed StorageSphere Enterprise. See [Installing the License](../installation/installing-the-license).
 - Added at least one storage system connection. See [Adding a Storage System](./adding-a-storage-system).
 - Storage system connection status is **Validated** or **Ready for discovery**.
 - Assigned collector is healthy and connected to the management server.

@@ -1,7 +1,7 @@
 ---
 id: network-requirements
 title: Network Requirements
-description: Network connectivity, DNS, time synchronization, and port requirements for StorageSphere Enterprise 3.0.
+description: Network connectivity, DNS, time synchronization, and port requirements for StorageSphere Enterprise.
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## Overview
 
-This topic describes the network connectivity, naming, and time synchronization requirements for StorageSphere Enterprise 3.0. Proper network configuration ensures reliable discovery, metric collection, authentication, and alert delivery across your storage infrastructure.
+This topic describes the network connectivity, naming, and time synchronization requirements for StorageSphere Enterprise. Proper network configuration ensures reliable discovery, metric collection, authentication, and alert delivery across your storage infrastructure.
 
 Review this topic together with [Firewall Requirements](./firewall-requirements) and [Deployment Architecture](./deployment-architecture) before you install and configure the product.
 
